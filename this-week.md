@@ -8,10 +8,10 @@
 
 ## 任务清单
 
-- [ ] 创建一个 GitHub 仓库，例如 `ai-agent-internship-roadmap`。
-- [ ] 把这个工作区放进 GitHub 仓库。
+- [x] 创建一个 GitHub 仓库，例如 `ai-agent-internship-roadmap`。
+- [x] 把这个工作区放进 GitHub 仓库。
 - [ ] 填写 `trackers/skill-matrix.csv` 里的当前水平。
-- [ ] 在仓库里创建 `learning-log/` 文件夹。
+- [x] 在仓库里创建 `learning-log/` 文件夹。
 - [ ] 完成 5 个 Python 练习：函数、列表、字典、文件、异常。
 - [ ] 至少给 2 个练习加 pytest 测试。
 - [ ] 用 `templates/weekly-review.md` 写第一篇周复盘。
@@ -30,4 +30,3 @@
 - 至少两个练习有测试。
 - 你不用看 AI 输出，也能解释每个函数在做什么。
 - `weekly-log.csv` 有当前周的一行记录。
-
