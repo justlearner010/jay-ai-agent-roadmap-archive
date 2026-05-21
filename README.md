@@ -50,5 +50,9 @@
 - `resources/learning-resources.md`：课程、官方文档、推荐书目、后端技术栈、语言学习策略。
 - `templates/daily-learning-log-template.md`：每日学习日志模板，记录今天做了什么和明天做什么。
 - `templates/daily-study-note-template.md`：每日学习笔记模板，整理一个具体概念或知识点。
+- `homework-review-system.md`：每日作业提交、批改、修改、复查流程。
+- `templates/daily-homework-submission-template.md`：每天请求作业批改时使用的提交模板。
+- `templates/homework-review-template.md`：Codex 批改作业时使用的评分模板。
+- `trackers/homework-review-log.csv`：记录每日作业评分、复查和推送状态。
 - `job-description-analysis-template.md`：分析具体岗位需要补哪些技能。
 - `github-portfolio-checklist.md`：检查项目是否达到可投递标准。
