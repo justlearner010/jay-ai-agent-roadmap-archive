@@ -47,6 +47,7 @@
 
 - `cs-foundations-integration.md`：如何把数据结构、网络、数据库、操作系统等科班基础嵌入 AI Agent 项目。
 - `weekly-plans/first-12-weeks.md`：前 12 周每周目标、任务、科班基础和验收标准。
+- `12-week-execution-discipline.md`：前 12 周的执行纪律，规定每日产出、每周批改、测试和代码质量要求。
 - `resources/learning-resources.md`：课程、官方文档、推荐书目、后端技术栈、语言学习策略。
 - `templates/daily-learning-log-template.md`：每日学习日志模板，记录今天做了什么和明天做什么。
 - `templates/daily-study-note-template.md`：每日学习笔记模板，整理一个具体概念或知识点。
