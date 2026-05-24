@@ -1,16 +1,36 @@
-fname = input("filename")
-word_cnt ={}
+# fname = input("filename")
+# word_cnt ={}
+# def word_freq_cnt(fname):
+#     with open(fname,"r") as f:
+#         for line in f:
+#             words = line.strip().split()
+#             for word in words:
+#                 word = word.lower()
+#                 if word in word_cnt:
+#                     word_cnt[word] += 1
+
+#                 else:
+#                     word_cnt [word] = 1
+#     for word, count in list(word_cnt.items())[:10]:
+#         print(word, count)
+# word_freq_cnt(fname)
+
+fname = '01.txt'
 def word_freq_cnt(fname):
-    with open(fname,"r") as f:
+    word_cnt ={}
+    with open(fname,'r') as f:
         for line in f:
             words = line.strip().split()
             for word in words:
                 word = word.lower()
-                if word in word_cnt:
-                    word_cnt[word] += 1
-
+                if(word in word_cnt):
+                    word_cnt[word] +=1
                 else:
-                    word_cnt [word] = 1
-    for word, count in list(word_cnt.items())[:10]:
-        print(word, count)
+                    word_cnt[word] = 1
+    top_10_words = [k for k,v in sorted(word_cnt.items(),key = lambda item:item[1],reverse=True)[:10]]
+    print(top_10_words)
 word_freq_cnt(fname)
+    
+
+
+
