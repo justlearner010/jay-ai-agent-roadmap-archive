@@ -12,9 +12,9 @@
 
 ## 使用顺序
 
-1. 先看 `this-week.md`，从本周清单开始执行。
-2. 再看 `90-day-start-plan.md`，完成前 12 周训练。
-3. 用 `weekly-plans/first-12-weeks.md` 执行前 12 周逐周计划。
+1. 先看 `daily-homework/README.md`，进入当前周和当天作业。
+2. 如果只做本周 Python 任务，再看 `this-week.md`。
+3. 用 `daily-homework/week-xx/day-xx.md` 执行前 12 周每日作业。
 4. 看 `cs-foundations-integration.md`，把科班基础嵌入项目主线。
 5. 用 `resources/learning-resources.md` 选择课程和阅读书目。
 6. 每周用 `weekly-operating-system.md` 做计划和复盘。
@@ -35,6 +35,22 @@
 - 一条简历 bullet；
 - 或一次 GitHub issue/PR。
 
+## 每日文件生成
+
+创建今天的学习日志：
+
+```bash
+python3 scripts/new_daily_entry.py log
+```
+
+创建今天的学习笔记：
+
+```bash
+python3 scripts/new_daily_entry.py note --topic "collections.Counter"
+```
+
+脚本会自动把模板里的 `YYYY-MM-DD` 替换成今天日期，并生成到 `learning-log/` 或 `study-notes/`。如果同名文件已经存在，脚本只提示路径，不会覆盖已有内容。
+
 ## 作品集项目
 
 1. 个人 RAG 知识库
@@ -45,9 +61,11 @@
 
 ## 资源入口
 
+- `daily-homework/README.md`：前 12 周每日作业要求和推荐阅读材料入口。
+- `conversation-archive/2026-05-20-ai-era-skills-roadmap.md`：本工作区来源对话整理版，记录从“AI 时代应该学什么”到当前路线图的关键决策。
 - `cs-foundations-integration.md`：如何把数据结构、网络、数据库、操作系统等科班基础嵌入 AI Agent 项目。
-- `weekly-plans/first-12-weeks.md`：前 12 周每周目标、任务、科班基础和验收标准。
-- `12-week-execution-discipline.md`：前 12 周的执行纪律，规定每日产出、每周批改、测试和代码质量要求。
+- `daily-homework/week-xx/day-xx.md`：前 12 周每天的作业要求、推荐阅读、提交物和验收标准。
+- `weekly-operating-system.md`：每周计划、时间分配和复盘方式。
 - `resources/learning-resources.md`：课程、官方文档、推荐书目、后端技术栈、语言学习策略。
 - `templates/daily-learning-log-template.md`：每日学习日志模板，记录今天做了什么和明天做什么。
 - `templates/daily-study-note-template.md`：每日学习笔记模板，整理一个具体概念或知识点。
