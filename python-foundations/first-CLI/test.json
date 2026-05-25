@@ -1,0 +1,716 @@
+[
+    {
+        "chunk index": 1,
+        "chunk_start": 0,
+        "chunk_end": 10,
+        "chunk_text": "Artificial"
+    },
+    {
+        "chunk index": 2,
+        "chunk_start": 10,
+        "chunk_end": 20,
+        "chunk_text": " intellige"
+    },
+    {
+        "chunk index": 3,
+        "chunk_start": 20,
+        "chunk_end": 30,
+        "chunk_text": "nce is rap"
+    },
+    {
+        "chunk index": 4,
+        "chunk_start": 30,
+        "chunk_end": 40,
+        "chunk_text": "idly chang"
+    },
+    {
+        "chunk index": 5,
+        "chunk_start": 40,
+        "chunk_end": 50,
+        "chunk_text": "ing the mo"
+    },
+    {
+        "chunk index": 6,
+        "chunk_start": 50,
+        "chunk_end": 60,
+        "chunk_text": "dern world"
+    },
+    {
+        "chunk index": 7,
+        "chunk_start": 60,
+        "chunk_end": 70,
+        "chunk_text": ". \nStudent"
+    },
+    {
+        "chunk index": 8,
+        "chunk_start": 70,
+        "chunk_end": 80,
+        "chunk_text": "s use AI t"
+    },
+    {
+        "chunk index": 9,
+        "chunk_start": 80,
+        "chunk_end": 90,
+        "chunk_text": "ools to im"
+    },
+    {
+        "chunk index": 10,
+        "chunk_start": 90,
+        "chunk_end": 100,
+        "chunk_text": "prove lear"
+    },
+    {
+        "chunk index": 11,
+        "chunk_start": 100,
+        "chunk_end": 110,
+        "chunk_text": "ning effic"
+    },
+    {
+        "chunk index": 12,
+        "chunk_start": 110,
+        "chunk_end": 120,
+        "chunk_text": "iency, res"
+    },
+    {
+        "chunk index": 13,
+        "chunk_start": 120,
+        "chunk_end": 130,
+        "chunk_text": "earchers u"
+    },
+    {
+        "chunk index": 14,
+        "chunk_start": 130,
+        "chunk_end": 140,
+        "chunk_text": "se machine"
+    },
+    {
+        "chunk index": 15,
+        "chunk_start": 140,
+        "chunk_end": 150,
+        "chunk_text": " learning "
+    },
+    {
+        "chunk index": 16,
+        "chunk_start": 150,
+        "chunk_end": 160,
+        "chunk_text": "to analyze"
+    },
+    {
+        "chunk index": 17,
+        "chunk_start": 160,
+        "chunk_end": 170,
+        "chunk_text": " large amo"
+    },
+    {
+        "chunk index": 18,
+        "chunk_start": 170,
+        "chunk_end": 180,
+        "chunk_text": "unts of da"
+    },
+    {
+        "chunk index": 19,
+        "chunk_start": 180,
+        "chunk_end": 190,
+        "chunk_text": "ta, and co"
+    },
+    {
+        "chunk index": 20,
+        "chunk_start": 190,
+        "chunk_end": 200,
+        "chunk_text": "mpanies re"
+    },
+    {
+        "chunk index": 21,
+        "chunk_start": 200,
+        "chunk_end": 210,
+        "chunk_text": "ly on auto"
+    },
+    {
+        "chunk index": 22,
+        "chunk_start": 210,
+        "chunk_end": 220,
+        "chunk_text": "mation to "
+    },
+    {
+        "chunk index": 23,
+        "chunk_start": 220,
+        "chunk_end": 230,
+        "chunk_text": "increase p"
+    },
+    {
+        "chunk index": 24,
+        "chunk_start": 230,
+        "chunk_end": 240,
+        "chunk_text": "roductivit"
+    },
+    {
+        "chunk index": 25,
+        "chunk_start": 240,
+        "chunk_end": 250,
+        "chunk_text": "y.\n\nPython"
+    },
+    {
+        "chunk index": 26,
+        "chunk_start": 250,
+        "chunk_end": 260,
+        "chunk_text": " has becom"
+    },
+    {
+        "chunk index": 27,
+        "chunk_start": 260,
+        "chunk_end": 270,
+        "chunk_text": "e one of t"
+    },
+    {
+        "chunk index": 28,
+        "chunk_start": 270,
+        "chunk_end": 280,
+        "chunk_text": "he most po"
+    },
+    {
+        "chunk index": 29,
+        "chunk_start": 280,
+        "chunk_end": 290,
+        "chunk_text": "pular prog"
+    },
+    {
+        "chunk index": 30,
+        "chunk_start": 290,
+        "chunk_end": 300,
+        "chunk_text": "ramming la"
+    },
+    {
+        "chunk index": 31,
+        "chunk_start": 300,
+        "chunk_end": 310,
+        "chunk_text": "nguages be"
+    },
+    {
+        "chunk index": 32,
+        "chunk_start": 310,
+        "chunk_end": 320,
+        "chunk_text": "cause of i"
+    },
+    {
+        "chunk index": 33,
+        "chunk_start": 320,
+        "chunk_end": 330,
+        "chunk_text": "ts simplic"
+    },
+    {
+        "chunk index": 34,
+        "chunk_start": 330,
+        "chunk_end": 340,
+        "chunk_text": "ity and po"
+    },
+    {
+        "chunk index": 35,
+        "chunk_start": 340,
+        "chunk_end": 350,
+        "chunk_text": "werful eco"
+    },
+    {
+        "chunk index": 36,
+        "chunk_start": 350,
+        "chunk_end": 360,
+        "chunk_text": "system. \nL"
+    },
+    {
+        "chunk index": 37,
+        "chunk_start": 360,
+        "chunk_end": 370,
+        "chunk_text": "ibraries s"
+    },
+    {
+        "chunk index": 38,
+        "chunk_start": 370,
+        "chunk_end": 380,
+        "chunk_text": "uch as Num"
+    },
+    {
+        "chunk index": 39,
+        "chunk_start": 380,
+        "chunk_end": 390,
+        "chunk_text": "Py, Pandas"
+    },
+    {
+        "chunk index": 40,
+        "chunk_start": 390,
+        "chunk_end": 400,
+        "chunk_text": ", and PyTo"
+    },
+    {
+        "chunk index": 41,
+        "chunk_start": 400,
+        "chunk_end": 410,
+        "chunk_text": "rch make P"
+    },
+    {
+        "chunk index": 42,
+        "chunk_start": 410,
+        "chunk_end": 420,
+        "chunk_text": "ython extr"
+    },
+    {
+        "chunk index": 43,
+        "chunk_start": 420,
+        "chunk_end": 430,
+        "chunk_text": "emely usef"
+    },
+    {
+        "chunk index": 44,
+        "chunk_start": 430,
+        "chunk_end": 440,
+        "chunk_text": "ul in data"
+    },
+    {
+        "chunk index": 45,
+        "chunk_start": 440,
+        "chunk_end": 450,
+        "chunk_text": " science a"
+    },
+    {
+        "chunk index": 46,
+        "chunk_start": 450,
+        "chunk_end": 460,
+        "chunk_text": "nd artific"
+    },
+    {
+        "chunk index": 47,
+        "chunk_start": 460,
+        "chunk_end": 470,
+        "chunk_text": "ial intell"
+    },
+    {
+        "chunk index": 48,
+        "chunk_start": 470,
+        "chunk_end": 480,
+        "chunk_text": "igence.\n\nM"
+    },
+    {
+        "chunk index": 49,
+        "chunk_start": 480,
+        "chunk_end": 490,
+        "chunk_text": "any develo"
+    },
+    {
+        "chunk index": 50,
+        "chunk_start": 490,
+        "chunk_end": 500,
+        "chunk_text": "pers pract"
+    },
+    {
+        "chunk index": 51,
+        "chunk_start": 500,
+        "chunk_end": 510,
+        "chunk_text": "ice by bui"
+    },
+    {
+        "chunk index": 52,
+        "chunk_start": 510,
+        "chunk_end": 520,
+        "chunk_text": "lding smal"
+    },
+    {
+        "chunk index": 53,
+        "chunk_start": 520,
+        "chunk_end": 530,
+        "chunk_text": "l projects"
+    },
+    {
+        "chunk index": 54,
+        "chunk_start": 530,
+        "chunk_end": 540,
+        "chunk_text": ". \nFor exa"
+    },
+    {
+        "chunk index": 55,
+        "chunk_start": 540,
+        "chunk_end": 550,
+        "chunk_text": "mple, a be"
+    },
+    {
+        "chunk index": 56,
+        "chunk_start": 550,
+        "chunk_end": 560,
+        "chunk_text": "ginner may"
+    },
+    {
+        "chunk index": 57,
+        "chunk_start": 560,
+        "chunk_end": 570,
+        "chunk_text": " create a "
+    },
+    {
+        "chunk index": 58,
+        "chunk_start": 570,
+        "chunk_end": 580,
+        "chunk_text": "word count"
+    },
+    {
+        "chunk index": 59,
+        "chunk_start": 580,
+        "chunk_end": 590,
+        "chunk_text": "er, a text"
+    },
+    {
+        "chunk index": 60,
+        "chunk_start": 590,
+        "chunk_end": 600,
+        "chunk_text": " chunking "
+    },
+    {
+        "chunk index": 61,
+        "chunk_start": 600,
+        "chunk_end": 610,
+        "chunk_text": "tool, or a"
+    },
+    {
+        "chunk index": 62,
+        "chunk_start": 610,
+        "chunk_end": 620,
+        "chunk_text": " simple ch"
+    },
+    {
+        "chunk index": 63,
+        "chunk_start": 620,
+        "chunk_end": 630,
+        "chunk_text": "atbot. \nTh"
+    },
+    {
+        "chunk index": 64,
+        "chunk_start": 630,
+        "chunk_end": 640,
+        "chunk_text": "ese projec"
+    },
+    {
+        "chunk index": 65,
+        "chunk_start": 640,
+        "chunk_end": 650,
+        "chunk_text": "ts help pr"
+    },
+    {
+        "chunk index": 66,
+        "chunk_start": 650,
+        "chunk_end": 660,
+        "chunk_text": "ogrammers "
+    },
+    {
+        "chunk index": 67,
+        "chunk_start": 660,
+        "chunk_end": 670,
+        "chunk_text": "understand"
+    },
+    {
+        "chunk index": 68,
+        "chunk_start": 670,
+        "chunk_end": 680,
+        "chunk_text": " file hand"
+    },
+    {
+        "chunk index": 69,
+        "chunk_start": 680,
+        "chunk_end": 690,
+        "chunk_text": "ling, stri"
+    },
+    {
+        "chunk index": 70,
+        "chunk_start": 690,
+        "chunk_end": 700,
+        "chunk_text": "ng process"
+    },
+    {
+        "chunk index": 71,
+        "chunk_start": 700,
+        "chunk_end": 710,
+        "chunk_text": "ing, loops"
+    },
+    {
+        "chunk index": 72,
+        "chunk_start": 710,
+        "chunk_end": 720,
+        "chunk_text": ", function"
+    },
+    {
+        "chunk index": 73,
+        "chunk_start": 720,
+        "chunk_end": 730,
+        "chunk_text": "s, and dat"
+    },
+    {
+        "chunk index": 74,
+        "chunk_start": 730,
+        "chunk_end": 740,
+        "chunk_text": "a structur"
+    },
+    {
+        "chunk index": 75,
+        "chunk_start": 740,
+        "chunk_end": 750,
+        "chunk_text": "es.\n\nIn na"
+    },
+    {
+        "chunk index": 76,
+        "chunk_start": 750,
+        "chunk_end": 760,
+        "chunk_text": "tural lang"
+    },
+    {
+        "chunk index": 77,
+        "chunk_start": 760,
+        "chunk_end": 770,
+        "chunk_text": "uage proce"
+    },
+    {
+        "chunk index": 78,
+        "chunk_start": 770,
+        "chunk_end": 780,
+        "chunk_text": "ssing, lar"
+    },
+    {
+        "chunk index": 79,
+        "chunk_start": 780,
+        "chunk_end": 790,
+        "chunk_text": "ge documen"
+    },
+    {
+        "chunk index": 80,
+        "chunk_start": 790,
+        "chunk_end": 800,
+        "chunk_text": "ts are oft"
+    },
+    {
+        "chunk index": 81,
+        "chunk_start": 800,
+        "chunk_end": 810,
+        "chunk_text": "en divided"
+    },
+    {
+        "chunk index": 82,
+        "chunk_start": 810,
+        "chunk_end": 820,
+        "chunk_text": " into smal"
+    },
+    {
+        "chunk index": 83,
+        "chunk_start": 820,
+        "chunk_end": 830,
+        "chunk_text": "ler chunks"
+    },
+    {
+        "chunk index": 84,
+        "chunk_start": 830,
+        "chunk_end": 840,
+        "chunk_text": " before be"
+    },
+    {
+        "chunk index": 85,
+        "chunk_start": 840,
+        "chunk_end": 850,
+        "chunk_text": "ing proces"
+    },
+    {
+        "chunk index": 86,
+        "chunk_start": 850,
+        "chunk_end": 860,
+        "chunk_text": "sed by AI "
+    },
+    {
+        "chunk index": 87,
+        "chunk_start": 860,
+        "chunk_end": 870,
+        "chunk_text": "models. \nT"
+    },
+    {
+        "chunk index": 88,
+        "chunk_start": 870,
+        "chunk_end": 880,
+        "chunk_text": "his techni"
+    },
+    {
+        "chunk index": 89,
+        "chunk_start": 880,
+        "chunk_end": 890,
+        "chunk_text": "que is imp"
+    },
+    {
+        "chunk index": 90,
+        "chunk_start": 890,
+        "chunk_end": 900,
+        "chunk_text": "ortant for"
+    },
+    {
+        "chunk index": 91,
+        "chunk_start": 900,
+        "chunk_end": 910,
+        "chunk_text": " embedding"
+    },
+    {
+        "chunk index": 92,
+        "chunk_start": 910,
+        "chunk_end": 920,
+        "chunk_text": "s, vector "
+    },
+    {
+        "chunk index": 93,
+        "chunk_start": 920,
+        "chunk_end": 930,
+        "chunk_text": "databases,"
+    },
+    {
+        "chunk index": 94,
+        "chunk_start": 930,
+        "chunk_end": 940,
+        "chunk_text": " retrieval"
+    },
+    {
+        "chunk index": 95,
+        "chunk_start": 940,
+        "chunk_end": 950,
+        "chunk_text": " systems, "
+    },
+    {
+        "chunk index": 96,
+        "chunk_start": 950,
+        "chunk_end": 960,
+        "chunk_text": "and modern"
+    },
+    {
+        "chunk index": 97,
+        "chunk_start": 960,
+        "chunk_end": 970,
+        "chunk_text": " RAG pipel"
+    },
+    {
+        "chunk index": 98,
+        "chunk_start": 970,
+        "chunk_end": 980,
+        "chunk_text": "ines.\n\nLea"
+    },
+    {
+        "chunk index": 99,
+        "chunk_start": 980,
+        "chunk_end": 990,
+        "chunk_text": "rning prog"
+    },
+    {
+        "chunk index": 100,
+        "chunk_start": 990,
+        "chunk_end": 1000,
+        "chunk_text": "ramming re"
+    },
+    {
+        "chunk index": 101,
+        "chunk_start": 1000,
+        "chunk_end": 1010,
+        "chunk_text": "quires pat"
+    },
+    {
+        "chunk index": 102,
+        "chunk_start": 1010,
+        "chunk_end": 1020,
+        "chunk_text": "ience and "
+    },
+    {
+        "chunk index": 103,
+        "chunk_start": 1020,
+        "chunk_end": 1030,
+        "chunk_text": "consistenc"
+    },
+    {
+        "chunk index": 104,
+        "chunk_start": 1030,
+        "chunk_end": 1040,
+        "chunk_text": "y. \nInstea"
+    },
+    {
+        "chunk index": 105,
+        "chunk_start": 1040,
+        "chunk_end": 1050,
+        "chunk_text": "d of memor"
+    },
+    {
+        "chunk index": 106,
+        "chunk_start": 1050,
+        "chunk_end": 1060,
+        "chunk_text": "izing synt"
+    },
+    {
+        "chunk index": 107,
+        "chunk_start": 1060,
+        "chunk_end": 1070,
+        "chunk_text": "ax mechani"
+    },
+    {
+        "chunk index": 108,
+        "chunk_start": 1070,
+        "chunk_end": 1080,
+        "chunk_text": "cally, stu"
+    },
+    {
+        "chunk index": 109,
+        "chunk_start": 1080,
+        "chunk_end": 1090,
+        "chunk_text": "dents shou"
+    },
+    {
+        "chunk index": 110,
+        "chunk_start": 1090,
+        "chunk_end": 1100,
+        "chunk_text": "ld focus o"
+    },
+    {
+        "chunk index": 111,
+        "chunk_start": 1100,
+        "chunk_end": 1110,
+        "chunk_text": "n understa"
+    },
+    {
+        "chunk index": 112,
+        "chunk_start": 1110,
+        "chunk_end": 1120,
+        "chunk_text": "nding how "
+    },
+    {
+        "chunk index": 113,
+        "chunk_start": 1120,
+        "chunk_end": 1130,
+        "chunk_text": "data flows"
+    },
+    {
+        "chunk index": 114,
+        "chunk_start": 1130,
+        "chunk_end": 1140,
+        "chunk_text": " through a"
+    },
+    {
+        "chunk index": 115,
+        "chunk_start": 1140,
+        "chunk_end": 1150,
+        "chunk_text": " program a"
+    },
+    {
+        "chunk index": 116,
+        "chunk_start": 1150,
+        "chunk_end": 1160,
+        "chunk_text": "nd how dif"
+    },
+    {
+        "chunk index": 117,
+        "chunk_start": 1160,
+        "chunk_end": 1170,
+        "chunk_text": "ferent com"
+    },
+    {
+        "chunk index": 118,
+        "chunk_start": 1170,
+        "chunk_end": 1180,
+        "chunk_text": "ponents in"
+    },
+    {
+        "chunk index": 119,
+        "chunk_start": 1180,
+        "chunk_end": 1190,
+        "chunk_text": "teract\n"
+    }
+]
