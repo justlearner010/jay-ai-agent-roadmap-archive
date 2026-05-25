@@ -1,0 +1,7 @@
+.DS_Store
+.obsidian/
+
+# Temporary pasted screenshots should be moved into an assets folder before commit.
+Pasted image *.png
+截屏*.png
+
