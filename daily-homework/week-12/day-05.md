@@ -17,8 +17,17 @@
 5. 整理 1-3 个准备提交给 Codex 批改的具体问题，问题必须指向代码、测试、文档或概念。
 6. 写下明天第一步要做什么，必须具体到一个文件、一个函数、一个页面或一个文档段落。
 
+## Java 后端副线任务
+
+时间上限：45-60 分钟。
+
+1. 在 RAG 需求草稿里补一段 Java + AI 后端网关需求。
+2. 写清 Java 负责哪些业务能力，Python RAG 服务负责哪些 AI 能力。
+3. 不要求实现新功能。
+
 ## 推荐阅读材料
 
+- 本仓库：`resources/java-side-track.md` 的“AI 任务网关”
 - DeepLearning.AI - LangChain Chat with Your Data：https://www.deeplearning.ai/courses/langchain-chat-with-your-data/
 - OpenAI Embeddings guide：https://platform.openai.com/docs/guides/embeddings
 - Chroma Docs：https://docs.trychroma.com/
@@ -36,6 +45,7 @@
 - 留下可检查的证据：运行命令、测试输出、页面截图、README 片段或学习日志。
 - 能用自己的话解释今天最关键的概念，以及它和 AI 学习助手项目的关系。
 - 明天第一步任务已经写清楚，并且能在 30 分钟内开始执行。
+- 下一阶段需求能说明 Java 后端和 Python RAG 服务的边界。
 
 ## 批改重点
 

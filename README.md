@@ -7,8 +7,9 @@
 - 时间范围：2026 年 5 月到 2027 年 6 月。
 - 投递窗口：2027 年 3 月到 2027 年 6 月。
 - 每周投入：20 小时以上。
-- 主技术栈：Python + TypeScript。
-- 最终成果：3 个作品集项目、GitHub 展示页、中文/英文简历、面试准备材料、投递追踪表。
+- 主技术栈：Python + TypeScript + Java / Spring Boot。
+- 路线权重：70% AI Agent / RAG / LLM 应用工程，30% Java 后端实习兼容。
+- 最终成果：3 个 AI Agent 作品集项目、1 个 Java + AI 后端网关项目、GitHub 展示页、中文/英文简历、面试准备材料、投递追踪表。
 
 ## 使用顺序
 
@@ -18,7 +19,7 @@
 4. 看 `cs-foundations-integration.md`，把科班基础嵌入项目主线。
 5. 用 `resources/learning-resources.md` 选择课程和阅读书目。
 6. 每周用 `weekly-operating-system.md` 做计划和复盘。
-7. 按顺序完成 `projects/` 里的 3 个作品集项目。
+7. 按顺序完成 `projects/` 里的作品集项目，其中 Java + AI 后端网关用于兼容普通后端实习。
 8. 每周日更新 `trackers/` 里的表格。
 9. 从 2027 年 2 月开始，用 `interview/ai-agent-interview-checklist.md` 准备面试。
 
@@ -56,6 +57,7 @@ python3 scripts/new_daily_entry.py note --topic "collections.Counter"
 1. 个人 RAG 知识库
 2. LangGraph 研究 Agent
 3. AI Agent Web App
+4. Java + AI 后端网关
 
 每个项目最终都应该有 README、架构图、demo、测试和失败案例分析。
 

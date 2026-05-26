@@ -17,8 +17,17 @@
 5. 整理 1-3 个准备提交给 Codex 批改的具体问题，问题必须指向代码、测试、文档或概念。
 6. 写下明天第一步要做什么，必须具体到一个文件、一个函数、一个页面或一个文档段落。
 
+## Java 副线任务
+
+时间上限：45-60 分钟。
+
+1. 给本周 Java 小函数补 1 个 JUnit 测试。
+2. 在 README 或学习日志里记录 JUnit 和 pytest 在写法、断言、运行命令上的一个相同点和一个不同点。
+3. 不增加新 Java 功能，只验证已有练习。
+
 ## 推荐阅读材料
 
+- 本仓库：`resources/java-side-track.md` 的“Maven 和 JUnit”
 - React Docs - Conditional Rendering：https://react.dev/learn/conditional-rendering
 - Next.js Docs - Styling：https://nextjs.org/docs/app/getting-started/css
 
@@ -35,6 +44,7 @@
 - 留下可检查的证据：运行命令、测试输出、页面截图、README 片段或学习日志。
 - 能用自己的话解释今天最关键的概念，以及它和 AI 学习助手项目的关系。
 - 明天第一步任务已经写清楚，并且能在 30 分钟内开始执行。
+- Java 副线至少留下 1 个 JUnit 测试或一条明确的测试补齐计划。
 
 ## 批改重点
 

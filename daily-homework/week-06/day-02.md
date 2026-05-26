@@ -17,8 +17,17 @@
 5. 整理 1-3 个准备提交给 Codex 批改的具体问题，问题必须指向代码、测试、文档或概念。
 6. 写下明天第一步要做什么，必须具体到一个文件、一个函数、一个页面或一个文档段落。
 
+## Java 副线任务
+
+时间上限：30-45 分钟。
+
+1. 把第 5 周从 Python 迁移来的 Java 函数整理成一个小 service 类。
+2. 写清楚 service 的输入、返回值和异常情况。
+3. 只做类边界，不引入 Spring Boot。
+
 ## 推荐阅读材料
 
+- 本仓库：`resources/java-side-track.md` 的“Class、Service 和异常”
 - MDN - HTTP response status codes：https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status
 - TypeScript Handbook - Object Types：https://www.typescriptlang.org/docs/handbook/2/objects.html
 
@@ -35,6 +44,7 @@
 - 留下可检查的证据：运行命令、测试输出、页面截图、README 片段或学习日志。
 - 能用自己的话解释今天最关键的概念，以及它和 AI 学习助手项目的关系。
 - 明天第一步任务已经写清楚，并且能在 30 分钟内开始执行。
+- Java service 类能被普通方法调用，不依赖命令行输入。
 
 ## 批改重点
 

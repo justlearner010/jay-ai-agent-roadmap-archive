@@ -17,8 +17,17 @@
 5. 整理 1-3 个准备提交给 Codex 批改的具体问题，问题必须指向代码、测试、文档或概念。
 6. 写下明天第一步要做什么，必须具体到一个文件、一个函数、一个页面或一个文档段落。
 
+## Java 后端副线任务
+
+时间上限：45-60 分钟。
+
+1. 参考 AI 学习助手已有的 LLM 调用日志，设计 `ai_tasks` 模型，字段包含输入、状态、结果摘要、错误信息、创建时间。
+2. 把 Java API、Python AI 服务、数据库之间的调用链画进架构图或写成文字。
+3. 今天不要求真实调用 Python 服务。
+
 ## 推荐阅读材料
 
+- 本仓库：`resources/java-side-track.md` 的“AI 任务网关”
 - Mermaid Flowchart Docs：https://mermaid.js.org/syntax/flowchart.html
 - 本仓库：interview/ai-agent-interview-checklist.md 的项目讲解结构
 
@@ -35,6 +44,7 @@
 - 留下可检查的证据：运行命令、测试输出、页面截图、README 片段或学习日志。
 - 能用自己的话解释今天最关键的概念，以及它和 AI 学习助手项目的关系。
 - 明天第一步任务已经写清楚，并且能在 30 分钟内开始执行。
+- Java 后端副线有 AI 任务模型和服务调用链说明。
 
 ## 批改重点
 

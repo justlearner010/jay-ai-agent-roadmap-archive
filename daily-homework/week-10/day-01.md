@@ -17,8 +17,17 @@
 5. 整理 1-3 个准备提交给 Codex 批改的具体问题，问题必须指向代码、测试、文档或概念。
 6. 写下明天第一步要做什么，必须具体到一个文件、一个函数、一个页面或一个文档段落。
 
+## Java 后端副线任务
+
+时间上限：45-60 分钟。
+
+1. 先对照本周主线里的 JSON 文件或 SQLite 持久化方案，再为 Java 文档 metadata API 选择 PostgreSQL 或 MySQL。
+2. 写出 `documents` 表结构草稿。
+3. 说明为什么这个阶段不引入 Redis、Spring Cloud 或复杂权限。
+
 ## 推荐阅读材料
 
+- 本仓库：`resources/java-side-track.md` 的“CRUD 和数据库”
 - SQLite Docs - About SQLite：https://www.sqlite.org/about.html
 - Python Docs - sqlite3：https://docs.python.org/3/library/sqlite3.html
 
@@ -35,6 +44,7 @@
 - 留下可检查的证据：运行命令、测试输出、页面截图、README 片段或学习日志。
 - 能用自己的话解释今天最关键的概念，以及它和 AI 学习助手项目的关系。
 - 明天第一步任务已经写清楚，并且能在 30 分钟内开始执行。
+- Java 后端副线有数据库选择和表结构草稿。
 
 ## 批改重点
 

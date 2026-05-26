@@ -17,8 +17,17 @@
 5. 整理 1-3 个准备提交给 Codex 批改的具体问题，问题必须指向代码、测试、文档或概念。
 6. 写下明天第一步要做什么，必须具体到一个文件、一个函数、一个页面或一个文档段落。
 
+## Java 后端副线任务
+
+时间上限：45 分钟。
+
+1. 为同一个项目各写 1 条 AI Agent 版 bullet 和 Java 后端版 bullet。
+2. AI Agent 版突出 RAG / LLM / 评估 / 日志。
+3. Java 后端版突出 Spring Boot / 数据库 / REST API / 测试 / 服务调用。
+
 ## 推荐阅读材料
 
+- 本仓库：`resources/java-side-track.md` 的“AI 任务网关”
 - 本仓库：templates/resume-bullets.md
 - 本仓库：interview/ai-agent-interview-checklist.md 的项目讲解结构
 
@@ -35,6 +44,7 @@
 - 留下可检查的证据：运行命令、测试输出、页面截图、README 片段或学习日志。
 - 能用自己的话解释今天最关键的概念，以及它和 AI 学习助手项目的关系。
 - 明天第一步任务已经写清楚，并且能在 30 分钟内开始执行。
+- 简历 bullet 能根据岗位方向切换重点，但不夸大实际完成内容。
 
 ## 批改重点
 

@@ -17,8 +17,17 @@
 5. 整理 1-3 个准备提交给 Codex 批改的具体问题，问题必须指向代码、测试、文档或概念。
 6. 写下明天第一步要做什么，必须具体到一个文件、一个函数、一个页面或一个文档段落。
 
+## Java 副线任务
+
+时间上限：45-60 分钟。
+
+1. 创建一个 Spring Boot Hello API，返回固定 JSON；把它理解成 Next.js API route 或 Python FastAPI route 的 Java 版本。
+2. JSON 至少包含 `message` 和 `timestamp` 或同等字段。
+3. 记录启动命令和一次请求结果。
+
 ## 推荐阅读材料
 
+- 本仓库：`resources/java-side-track.md` 的“Spring Boot Controller”
 - OpenAI Structured Outputs：https://platform.openai.com/docs/guides/structured-outputs
 - TypeScript Handbook - Object Types：https://www.typescriptlang.org/docs/handbook/2/objects.html
 
@@ -35,6 +44,7 @@
 - 留下可检查的证据：运行命令、测试输出、页面截图、README 片段或学习日志。
 - 能用自己的话解释今天最关键的概念，以及它和 AI 学习助手项目的关系。
 - 明天第一步任务已经写清楚，并且能在 30 分钟内开始执行。
+- Spring Boot Hello API 能返回 JSON；如果环境没配好，至少写清缺少哪一步。
 
 ## 批改重点
 

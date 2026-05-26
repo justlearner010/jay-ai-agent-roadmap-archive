@@ -2,9 +2,9 @@
 
 时间：2026-06-29 到 2026-07-05
 
-主交付物：AI 学习助手 mock 全流程：前端提交到 API route，再返回总结。
+主交付物：AI 学习助手 mock 全流程：前端提交到 API route，再返回总结；Java 副线把练习整理成可测试 service。
 
-科班基础嵌入：HTTP 方法、状态码、JSON、CORS 基础概念。
+科班基础嵌入：HTTP 方法、状态码、JSON、CORS 基础概念；把 Python 函数边界过渡成 Java 类、异常和 service 边界。
 
 ## 每日入口
 
@@ -19,6 +19,7 @@
 ## 本周最低验收
 
 - AI 学习助手 mock 全流程：前端提交到 API route，再返回总结。
+- Java 副线只做 2 个触点：service 封装 + JUnit 正常/异常测试。
 - 至少一次 Codex 作业批改。
 - 至少更新一次学习日志和追踪表。
 - 周日写周复盘。

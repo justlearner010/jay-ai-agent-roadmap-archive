@@ -20,6 +20,13 @@
 - FAISS: https://faiss.ai/
 - PostgreSQL: https://www.postgresql.org/docs/
 - SQLAlchemy: https://docs.sqlalchemy.org/
+- Java 官方教程: https://dev.java/learn/
+- Spring Boot: https://docs.spring.io/spring-boot/
+- Spring Web: https://docs.spring.io/spring-framework/reference/web/webmvc.html
+- Spring Data JPA: https://spring.io/projects/spring-data-jpa
+- MyBatis: https://mybatis.org/mybatis-3/
+- Redis: https://redis.io/docs/
+- 本仓库 Java 副线语法过渡：`resources/java-side-track.md`
 
 ## 必须掌握的主题
 
@@ -31,6 +38,9 @@
 - RAG 评估和幻觉检查。
 - Agent 状态机和工具调用。
 - 日志与可复现调试。
+- Java 集合、异常、Maven 和 JUnit。
+- Spring Boot REST API、参数校验和数据库 CRUD。
+- Java 后端调用 Python RAG / Agent 服务的基本模式。
 
 ## 推荐课程
 
@@ -55,6 +65,14 @@
 5. DeepLearning.AI 课程库  
    链接：https://www.deeplearning.ai/courses/  
    用途：只挑和 `RAG`、`Agentic AI`、`Evaluating AI Agents`、`LangGraph` 直接相关的短课。
+
+6. Java 官方教程
+   链接：https://dev.java/learn/
+   用途：只补语法、集合、类、异常、Maven / Gradle 基本概念，不系统刷完整 Java 课程。
+
+7. Spring Boot 官方文档
+   链接：https://docs.spring.io/spring-boot/
+   用途：从 Spring Web REST API、配置、测试开始，配合 Java + AI 后端网关项目学习。
 
 ## 推荐阅读书目
 
@@ -89,9 +107,13 @@
 
 Java 的处理方式：
 
-- 不建议现在抢主线时间系统学 Java。
-- 建议 2027 年寒假用 2-3 周补 Java + Spring Boot CRUD。
-- 补到能看懂企业后端项目、能写简单 API、能连 PostgreSQL、能写基础测试即可。
+- 不建议抢主线时间系统学 Java，但需要从第 5 周开始作为 30% 副线进入。
+- 每次 Java 学习都先查 `resources/java-side-track.md`，确认它对应哪个 Python / AI 主线经验。
+- 第 1-4 周不加 Java，先跑通 Python、pytest、CLI 和 GitHub 证据链。
+- 第 5-8 周每周 2 小时补 Java 基础：语法、集合、类、异常、Maven、JUnit。
+- 第 9-12 周每周 3-4 小时补 Spring Boot：REST API、JSON、参数校验、基础 CRUD、数据库连接。
+- 2026-08 到 2026-10，把 Java 作为 RAG 项目的 API Gateway 或业务后端：Java 管理用户、文档、任务和数据库，Python 负责 RAG 推理。
+- 补到能看懂企业后端项目、能写简单 API、能连 PostgreSQL / MySQL、能写基础测试即可。
 - Spring Cloud、JVM 调优、复杂微服务、高并发深入，等岗位 JD 明确要求时再补。
 
 ## 后端技术栈优先级
@@ -108,6 +130,12 @@ Java 的处理方式：
 - 日志
 - 简单部署
 - Docker 基础
+- Java 基础
+- Spring Boot REST API
+- JUnit 基础
+- PostgreSQL / MySQL CRUD
+- MyBatis 或 Spring Data JPA 二选一
+- Java 后端调用 Python AI 服务
 
 以后按岗位补：
 
@@ -119,7 +147,7 @@ Java 的处理方式：
 - 高并发优化
 - 云服务体系
 - 复杂权限系统
-- Go / Java 后端栈
+- Go 后端栈
 
 判断标准：
 
@@ -129,10 +157,11 @@ Java 的处理方式：
 ## 阶段阅读安排
 
 - 2026-05 到 2026-07：CS50P、MIT Missing Semester、FastAPI、pytest、Effective Python 选读。
-- 2026-08 到 2026-10：《AI Engineering》、《Hands-On Large Language Models》、RAG 相关官方文档。
-- 2026-11 到 2027-01：LangGraph 文档、OpenAI Agents SDK 文档、Agent 安全和工具调用资料。
-- 2027-02 到 2027-04：《Designing Machine Learning Systems》选读，重点转向项目讲解、评估和面试。
-- 2027 寒假或投递前：根据 JD 决定是否补 Java + Spring Boot。
+- 2026-06-22 到 2026-07-19：每周 2 小时 Java 官方教程、Maven、JUnit，只做小练习。
+- 2026-07-20 到 2026-08-16：每周 3-4 小时 Spring Boot REST API、参数校验、CRUD 和数据库连接。
+- 2026-08 到 2026-10：《AI Engineering》、《Hands-On Large Language Models》、RAG 相关官方文档；Java 后端用于 RAG API Gateway。
+- 2026-11 到 2027-01：LangGraph 文档、OpenAI Agents SDK 文档、Agent 安全和工具调用资料；Java 后端用于任务、日志和执行记录 API。
+- 2027-02 到 2027-04：《Designing Machine Learning Systems》选读，重点转向项目讲解、评估、Java 后端面试和简历分版。
 
 ## 英文阅读习惯
 

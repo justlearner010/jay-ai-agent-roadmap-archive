@@ -2,9 +2,9 @@
 
 时间：2026-07-06 到 2026-07-12
 
-主交付物：AI 学习助手可以调用真实 LLM 生成总结。
+主交付物：AI 学习助手可以调用真实 LLM 生成总结；Java 副线完成 Spring Boot Hello API。
 
-科班基础嵌入：环境变量、API key 安全、网络请求失败处理。
+科班基础嵌入：环境变量、API key 安全、网络请求失败处理；把 Next.js / Python 服务端 API 经验过渡成 Spring Boot Controller 和 JSON 响应。
 
 ## 每日入口
 
@@ -19,6 +19,7 @@
 ## 本周最低验收
 
 - AI 学习助手可以调用真实 LLM 生成总结。
+- Java 副线只做 2 个触点：Hello API + 请求记录或最小 Controller 测试。
 - 至少一次 Codex 作业批改。
 - 至少更新一次学习日志和追踪表。
 - 周日写周复盘。
