@@ -46,24 +46,24 @@
 
 按顺序学，不要同时开太多课程。
 
-1. CS50P: Python  
-   链接：https://cs50.harvard.edu/python/  
+1. CS50P: Python
+   链接：https://cs50.harvard.edu/python/
    用途：补 Python 基础。你学过 C/C++，可以快速过，但练习要亲自写。
 
-2. MIT Missing Semester  
-   链接：https://missing.csail.mit.edu/  
+2. MIT Missing Semester
+   链接：https://missing.csail.mit.edu/
    用途：补 shell、Git、命令行、调试、编辑器、脚本化等工程基本功。
 
-3. Full Stack LLM Bootcamp  
-   链接：https://fullstackdeeplearning.com/llm-bootcamp/  
+3. Full Stack LLM Bootcamp
+   链接：https://fullstackdeeplearning.com/llm-bootcamp/
    用途：理解 LLM 应用从原型到产品的完整链路。
 
-4. DeepLearning.AI: LangChain Chat with Your Data  
-   链接：https://www.deeplearning.ai/courses/langchain-chat-with-your-data/  
+4. DeepLearning.AI: LangChain Chat with Your Data
+   链接：https://www.deeplearning.ai/courses/langchain-chat-with-your-data/
    用途：入门 RAG。学完后要立刻做自己的文档问答项目。
 
-5. DeepLearning.AI 课程库  
-   链接：https://www.deeplearning.ai/courses/  
+5. DeepLearning.AI 课程库
+   链接：https://www.deeplearning.ai/courses/
    用途：只挑和 `RAG`、`Agentic AI`、`Evaluating AI Agents`、`LangGraph` 直接相关的短课。
 
 6. Java 官方教程
@@ -76,25 +76,102 @@
 
 ## 推荐阅读书目
 
-1. 《AI Engineering: Building Applications with Foundation Models》- Chip Huyen  
-   优先级最高。重点看 AI 应用开发、评估、RAG、Agent、部署和维护。  
+1. 《AI Engineering: Building Applications with Foundation Models》- Chip Huyen
+   优先级最高。重点看 AI 应用开发、评估、RAG、Agent、部署和维护。
    建议时间：2026-08 到 2026-10，配合 RAG 项目读。
 
-2. 《Hands-On Large Language Models》- Jay Alammar, Maarten Grootendorst  
-   用来建立 LLM、embedding、transformer、RAG 的直觉。  
+2. 《Hands-On Large Language Models》- Jay Alammar, Maarten Grootendorst
+   用来建立 LLM、embedding、transformer、RAG 的直觉。
    建议时间：2026-08 到 2026-10，遇到概念不清时查读。
 
-3. 《Designing Machine Learning Systems》- Chip Huyen  
-   偏系统设计、数据、监控和生产化。  
+3. 《Designing Machine Learning Systems》- Chip Huyen
+   偏系统设计、数据、监控和生产化。
    建议时间：做完第一个 RAG 项目后再读，不要一开始就啃。
 
-4. 《Effective Python》- Brett Slatkin  
-   用来提高 Python 工程代码质量。  
+4. 《Effective Python》- Brett Slatkin
+   用来提高 Python 工程代码质量。
    建议时间：2026-05 到 2026-07 选读，重点看函数、类、迭代器、异常、并发和测试相关章节。
 
-5. 《Designing Data-Intensive Applications》- Martin Kleppmann  
-   不是 AI 书，但能补数据库、数据流、可靠系统的底层理解。  
+5. 《Designing Data-Intensive Applications》- Martin Kleppmann
+   不是 AI 书，但能补数据库、数据流、可靠系统的底层理解。
    建议时间：2027 年后期或实习前后选读，不要挤占 RAG/Agent 项目时间。
+
+## 数学基础资源
+
+学习原则：数学只学能直接解释项目的部分。每学一个概念，都要配一个小 Python 文件或项目评估脚本，不单独刷完整教材。
+
+### 线性代数
+
+用途：理解 embedding、向量相似度、向量检索、Top K 排序。
+
+1. 3Blue1Brown: Essence of Linear Algebra
+   链接：https://www.3blue1brown.com/topics/linear-algebra
+   使用方式：先看，用来建立直觉。重点看向量、线性组合、矩阵变换、点积。
+
+2. MIT 18.06SC Linear Algebra
+   链接：https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/
+   使用方式：作为正式课程选读。重点看 vectors、matrix multiplication、orthogonality、projection、least squares、eigenvalues。
+
+对应练习：
+
+- 写 `cosine_similarity.py`，手动计算两个向量的余弦相似度。
+- 写一个小脚本，对 5 个文本 chunk 的模拟 embedding 做 Top K 排序。
+
+### 概率统计
+
+用途：理解 RAG 评估、Agent 成功率、失败率、抽样、precision、recall、F1。
+
+1. Seeing Theory
+   链接：https://seeing-theory.brown.edu/
+   使用方式：先看可视化章节，重点看 Basic Probability、Compound Probability、Probability Distributions、Frequentist Inference。
+
+2. Think Stats 2e
+   链接：https://greenteapress.com/wp/think-stats-2e/
+   使用方式：适合 Python 程序员。重点看分布、均值、方差、抽样、估计、相关性。
+
+对应练习：
+
+- 写 `rag_eval.py`，计算命中率、正确率、失败案例比例。
+- 用 20-50 个测试问题统计 RAG 的 Top K 命中情况。
+
+### 信息检索
+
+用途：理解关键词检索、向量空间模型、tf-idf、Precision@K、Recall@K、MRR、NDCG。
+
+1. Introduction to Information Retrieval
+   链接：https://nlp.stanford.edu/IR-book/html/htmledition/irbook.html
+   使用方式：做 RAG 项目时选读。先看 Boolean retrieval、term vocabulary、tf-idf、vector space model、evaluation in information retrieval。
+
+对应练习：
+
+- 在个人 RAG 知识库项目里记录 `Precision@3`、`Recall@5`。
+- 比较关键词检索、向量检索、混合检索的失败案例。
+
+### 离散数学和图论
+
+用途：理解 LangGraph、Agent 状态机、任务拆解、BFS/DFS、失败重试循环。
+
+1. MIT 6.042J Mathematics for Computer Science
+   链接：https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/
+   使用方式：做 Agent 项目前选读。重点看 sets、relations、graphs、trees、state machines、probability。
+
+对应练习：
+
+- 画一个 Agent workflow 图，标出节点、边、状态字段。
+- 写一个小型状态机 demo，模拟 plan -> tool call -> retry -> final answer。
+
+### 总览参考书
+
+1. Mathematics for Machine Learning
+   链接：https://mml-book.github.io/
+   使用方式：长期参考书，不作为每日主线。优先看第 2 章 Linear Algebra、第 6 章 Probability and Distribution。第 7 章 Optimization 先了解即可。
+
+## 数学学习阶段安排
+
+- 2026-05 到 2026-07：只补数据结构、复杂度、排序、Top K。配合 Python 词频统计、文本切块、CLI 练习。
+- 2026-08 到 2026-10：补线性代数和信息检索。配合 RAG 项目学习 embedding、cosine similarity、Precision@K、Recall@K。
+- 2026-11 到 2027-01：补图论、状态机和基础概率统计。配合 LangGraph Agent 学节点、边、状态转移、失败率和成功率。
+- 2027-02 到 2027-04：复习复杂度、概率统计和 RAG/Agent 评估指标，用于项目讲解和面试。
 
 ## 编程语言学习策略
 
@@ -159,9 +236,9 @@ Java 的处理方式：
 - 2026-05 到 2026-07：CS50P、MIT Missing Semester、FastAPI、pytest、Effective Python 选读。
 - 2026-06-22 到 2026-07-19：每周 2 小时 Java 官方教程、Maven、JUnit，只做小练习。
 - 2026-07-20 到 2026-08-16：每周 3-4 小时 Spring Boot REST API、参数校验、CRUD 和数据库连接。
-- 2026-08 到 2026-10：《AI Engineering》、《Hands-On Large Language Models》、RAG 相关官方文档；Java 后端用于 RAG API Gateway。
-- 2026-11 到 2027-01：LangGraph 文档、OpenAI Agents SDK 文档、Agent 安全和工具调用资料；Java 后端用于任务、日志和执行记录 API。
-- 2027-02 到 2027-04：《Designing Machine Learning Systems》选读，重点转向项目讲解、评估、Java 后端面试和简历分版。
+- 2026-08 到 2026-10：《AI Engineering》、《Hands-On Large Language Models》、RAG 相关官方文档、线性代数和信息检索选读；Java 后端用于 RAG API Gateway。
+- 2026-11 到 2027-01：LangGraph 文档、OpenAI Agents SDK 文档、Agent 安全和工具调用资料、图论和状态机选读；Java 后端用于任务、日志和执行记录 API。
+- 2027-02 到 2027-04：《Designing Machine Learning Systems》选读，重点转向项目讲解、评估、数学指标、Java 后端面试和简历分版。
 
 ## 英文阅读习惯
 
