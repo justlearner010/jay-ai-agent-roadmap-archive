@@ -25,8 +25,15 @@
 2. 把 Java API、Python AI 服务、数据库之间的调用链画进架构图或写成文字。
 3. 今天不要求真实调用 Python 服务。
 
+## 科班基础嵌入
+
+- 今日基础点：状态机。
+- 对应项目任务：`ai_tasks` 状态、执行日志、调用链架构图。
+- 最小验收：能解释 `PENDING`、`SUCCEEDED`、`FAILED` 的转移条件。
+
 ## 推荐阅读材料
 
+- 本仓库：`resources/cs-foundations-side-track.md` 的 Week 11 Day 2
 - 本仓库：`resources/java-side-track.md` 的“AI 任务网关”
 - Mermaid Flowchart Docs：https://mermaid.js.org/syntax/flowchart.html
 - 本仓库：interview/ai-agent-interview-checklist.md 的项目讲解结构

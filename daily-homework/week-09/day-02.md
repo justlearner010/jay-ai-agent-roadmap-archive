@@ -25,8 +25,15 @@
 2. 写出 `POST /documents` 和 `GET /documents/{id}` 的请求/响应草稿。
 3. 今天可以只写文档，不要求实现数据库。
 
+## 科班基础嵌入
+
+- 今日基础点：REST 资源建模。
+- 对应项目任务：`documents` 模型和问答 API 数据结构。
+- 最小验收：能解释为什么 document 是 resource。
+
 ## 推荐阅读材料
 
+- 本仓库：`resources/cs-foundations-side-track.md` 的 Week 9 Day 2
 - 本仓库：`resources/java-side-track.md` 的“CRUD 和数据库”
 - MDN - Fetch API：https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
 - OpenAI Text generation guide：https://platform.openai.com/docs/guides/text-generation

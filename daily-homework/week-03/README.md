@@ -6,6 +6,19 @@
 
 科班基础嵌入：输入输出、文件路径、异常处理、日志。
 
+## 本周源码阅读
+
+主线阅读：继续阅读 [fastapi/typer](https://github.com/fastapi/typer)。
+
+只看：
+
+- README 里的参数示例。
+- 一个 `docs_src` 里的最小命令示例。
+
+迁移点：给自己的 CLI 文本总结器补清楚的用法提示，例如 `python xxx.py input.txt output.json`。
+
+Java 后端对照：不安排。先把 Python CLI 的输入、输出、错误提示做稳。
+
 ## 每日入口
 
 - [2026-06-08 周一：虚拟环境和包管理](./day-01.md)

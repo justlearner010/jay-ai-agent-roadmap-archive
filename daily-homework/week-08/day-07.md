@@ -25,8 +25,15 @@
 2. 在周复盘里写一句：Java Bean Validation 和 Pydantic 校验有什么相似点。
 3. 不增加数据库。
 
+## 科班基础嵌入
+
+- 今日基础点：测试样例设计。
+- 对应项目任务：正常、空字段、超长字段请求样例。
+- 最小验收：能说明为什么这 3 类样例能覆盖主要输入风险。
+
 ## 推荐阅读材料
 
+- 本仓库：`resources/cs-foundations-side-track.md` 的 Week 8 Day 7
 - 本仓库：`resources/java-side-track.md` 的“DTO 和参数校验”
 - 本仓库：templates/weekly-review.md
 

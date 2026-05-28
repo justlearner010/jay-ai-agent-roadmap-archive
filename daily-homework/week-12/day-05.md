@@ -25,8 +25,15 @@
 2. 写清 Java 负责哪些业务能力，Python RAG 服务负责哪些 AI 能力。
 3. 不要求实现新功能。
 
+## 科班基础嵌入
+
+- 今日基础点：RAG 数据流。
+- 对应项目任务：文档导入、切块、检索、引用和 Java 网关。
+- 最小验收：能画出 Java API -> Python RAG -> 数据库的边界。
+
 ## 推荐阅读材料
 
+- 本仓库：`resources/cs-foundations-side-track.md` 的 Week 12 Day 5
 - 本仓库：`resources/java-side-track.md` 的“AI 任务网关”
 - DeepLearning.AI - LangChain Chat with Your Data：https://www.deeplearning.ai/courses/langchain-chat-with-your-data/
 - OpenAI Embeddings guide：https://platform.openai.com/docs/guides/embeddings

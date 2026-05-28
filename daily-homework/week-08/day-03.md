@@ -25,8 +25,15 @@
 2. 给一个必填字段加参数校验。
 3. 只处理一个字段，不做完整业务系统。
 
+## 科班基础嵌入
+
+- 今日基础点：输入校验。
+- 对应项目任务：DTO / Bean Validation、用户错误和系统错误。
+- 最小验收：能解释校验发生在业务逻辑之前。
+
 ## 推荐阅读材料
 
+- 本仓库：`resources/cs-foundations-side-track.md` 的 Week 8 Day 3
 - 本仓库：`resources/java-side-track.md` 的“DTO 和参数校验”
 - MDN - HTTP response status codes：https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status
 - Python Tutorial - Errors and Exceptions：https://docs.python.org/3/tutorial/errors.html

@@ -25,8 +25,15 @@
 2. 保存 `SUCCEEDED` 或 `FAILED` 状态和错误信息。
 3. 记录一条成功样例和一条失败样例。
 
+## 科班基础嵌入
+
+- 今日基础点：失败恢复。
+- 对应项目任务：mock Python AI 服务成功 / 失败记录。
+- 最小验收：能说明失败信息如何保存，用户如何查询。
+
 ## 推荐阅读材料
 
+- 本仓库：`resources/cs-foundations-side-track.md` 的 Week 11 Day 4
 - 本仓库：`resources/java-side-track.md` 的“AI 任务网关”
 - 本仓库：templates/homework-review-template.md
 - 本仓库：templates/daily-homework-submission-template.md

@@ -25,8 +25,15 @@
 2. JSON 至少包含 `message` 和 `timestamp` 或同等字段。
 3. 记录启动命令和一次请求结果。
 
+## 科班基础嵌入
+
+- 今日基础点：客户端 / 服务端边界。
+- 对应项目任务：Spring Boot Hello API 和 LLM 结构化输出。
+- 最小验收：能画出 browser -> API -> response 的最小链路。
+
 ## 推荐阅读材料
 
+- 本仓库：`resources/cs-foundations-side-track.md` 的 Week 7 Day 3
 - 本仓库：`resources/java-side-track.md` 的“Spring Boot Controller”
 - OpenAI Structured Outputs：https://platform.openai.com/docs/guides/structured-outputs
 - TypeScript Handbook - Object Types：https://www.typescriptlang.org/docs/handbook/2/objects.html

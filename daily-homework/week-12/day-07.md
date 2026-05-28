@@ -26,8 +26,15 @@
 2. 确认第 13 周开始仍以 RAG 为主线，Java 只做业务后端和 API Gateway。
 3. 不新增代码。
 
+## 科班基础嵌入
+
+- 今日基础点：阶段规划。
+- 对应项目任务：第 13 周 RAG 主线和 Java API Gateway 副线。
+- 最小验收：能列出前三个任务且不偏离 RAG 主线。
+
 ## 推荐阅读材料
 
+- 本仓库：`resources/cs-foundations-side-track.md` 的 Week 12 Day 7
 - 本仓库：`resources/java-side-track.md` 的“AI 任务网关”
 - 本仓库：roadmap.md 阶段 2
 - 本仓库：resources/learning-resources.md 的 2026-08 到 2026-10 阅读安排

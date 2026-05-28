@@ -6,6 +6,26 @@
 
 科班基础嵌入：HTTP 请求/响应直觉、前端状态、异步流程；把第 1-2 周 Python 文本处理练习迁移成 Java 集合和测试对照。
 
+## 本周源码阅读
+
+主线阅读：阅读一个小型前端项目或自己的现有 Next.js 代码，只看组件如何管理输入、loading 和 error 状态。
+
+只看：
+
+- 一个表单组件。
+- 一个 `fetch` 或 mock 请求函数。
+
+迁移点：给 AI 学习助手前端补清楚的 loading 和 error 状态。
+
+Java 后端对照：阅读 [junit-team/junit5-samples](https://github.com/junit-team/junit5-samples)。
+
+只看：
+
+- 一个 Maven 示例的 `pom.xml`。
+- 一个最短的 JUnit test 文件。
+
+迁移点：给 Java 小函数留下 1 个 JUnit 测试或测试计划。
+
 ## 每日入口
 
 - [2026-06-22 周一：TypeScript 基础类型](./day-01.md)

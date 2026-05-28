@@ -25,8 +25,15 @@
 2. 从第 1-2 周已经做过的 Python 文本处理练习里选一个，用 Java 重写最小函数，例如统计字符串长度、拆分单词或过滤空字符串。
 3. 今天不要求 Spring Boot。
 
+## 科班基础嵌入
+
+- 今日基础点：字符串、数组、哈希表。
+- 对应项目任务：TypeScript 类型和 Java 文本处理函数。
+- 最小验收：能解释 Python `list` / `dict`、Java `List` / `Map`、TypeScript array / object 的用途区别。
+
 ## 推荐阅读材料
 
+- 本仓库：`resources/cs-foundations-side-track.md` 的 Week 5 Day 1
 - 本仓库：`resources/java-side-track.md` 的“Java 基础函数”
 - TypeScript Handbook - Everyday Types：https://www.typescriptlang.org/docs/handbook/2/everyday-types.html
 

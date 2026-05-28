@@ -6,6 +6,26 @@
 
 科班基础嵌入：数据库或文件持久化、基础数据建模、CRUD 思维；把 Python / SQLite 或文件持久化经验过渡成 SQL 表设计和 Repository / Mapper。
 
+## 本周源码阅读
+
+主线阅读：阅读 [fastapi/full-stack-fastapi-template](https://github.com/fastapi/full-stack-fastapi-template)。
+
+只看：
+
+- 一个 model / CRUD / API 的组合。
+- 数据库配置或迁移说明。
+
+迁移点：给自己的历史记录功能写清数据字段和保存/读取边界。
+
+Java 后端对照：继续阅读 [spring-projects/spring-petclinic](https://github.com/spring-projects/spring-petclinic)。
+
+只看：
+
+- 一个实体模型。
+- 一个 Repository 或数据库相关文件。
+
+迁移点：给 Java 文档 metadata API 写表结构草稿或 Repository 边界说明。
+
 ## 每日入口
 
 - [2026-07-27 周一：选择持久化方案](./day-01.md)

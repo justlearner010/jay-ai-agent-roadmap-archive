@@ -25,8 +25,15 @@
 2. 可选：补一个最小 Controller 测试；如果时间不够，只保留手动请求记录。
 3. 周复盘里说明 Spring Boot Controller 和 Next.js API route 的职责区别。
 
+## 科班基础嵌入
+
+- 今日基础点：配置和密钥边界。
+- 对应项目任务：API key、环境变量、Spring Boot 启动说明。
+- 最小验收：能解释为什么密钥不能进前端和 GitHub。
+
 ## 推荐阅读材料
 
+- 本仓库：`resources/cs-foundations-side-track.md` 的 Week 7 Day 7
 - 本仓库：`resources/java-side-track.md` 的“Spring Boot Controller”
 - 本仓库：templates/weekly-review.md
 

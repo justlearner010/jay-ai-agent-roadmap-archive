@@ -25,8 +25,15 @@
 2. 在周复盘里写一句：Python exception、Java exception 和 HTTP 错误响应分别解决什么问题。
 3. 不扩展数据库和 Spring Boot。
 
+## 科班基础嵌入
+
+- 今日基础点：错误传播。
+- 对应项目任务：Java exception、HTTP 400 / 500、前端错误展示。
+- 最小验收：能解释异常如何变成用户可读错误。
+
 ## 推荐阅读材料
 
+- 本仓库：`resources/cs-foundations-side-track.md` 的 Week 6 Day 7
 - 本仓库：`resources/java-side-track.md` 的“Class、Service 和异常”
 - 本仓库：templates/weekly-review.md
 - OpenAI API 文档：https://platform.openai.com/docs/

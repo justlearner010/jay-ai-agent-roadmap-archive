@@ -25,8 +25,15 @@
 2. 写下第 10 周接数据库前要确认的 3 件事：表字段、主键、查询方式。
 3. 不新增功能。
 
+## 科班基础嵌入
+
+- 今日基础点：数据模型演进。
+- 对应项目任务：从文本问答过渡到历史记录和数据库。
+- 最小验收：能列出第 10 周接数据库前的字段、主键、查询方式。
+
 ## 推荐阅读材料
 
+- 本仓库：`resources/cs-foundations-side-track.md` 的 Week 9 Day 7
 - 本仓库：`resources/java-side-track.md` 的“CRUD 和数据库”
 - 本仓库：templates/weekly-review.md
 

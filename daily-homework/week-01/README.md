@@ -6,6 +6,19 @@
 
 科班基础嵌入：字符串、列表、字典、文件系统、命令行参数。
 
+## 本周源码阅读
+
+主线阅读：暂不读大型源码。只在完成 Day 4 文本切块后，浏览 [langchain-ai/rag-from-scratch](https://github.com/langchain-ai/rag-from-scratch) 的 README，理解真实 RAG 项目为什么会有 indexing、retrieval、generation 这些步骤。
+
+只看：
+
+- README 里的项目结构和 RAG 步骤。
+- 和 chunking / indexing 相关的一个 notebook 标题，不要求读懂实现。
+
+迁移点：给自己的 `word_chunk.py` 或学习日志补一句“这个练习对应 RAG 的 chunking / indexing 前置步骤”。
+
+Java 后端对照：本周不安排 Java 源码阅读，避免刚开始就分心。
+
 ## 每日入口
 
 - [2026-05-25 周一：搭好仓库和学习记录系统](./day-01.md)

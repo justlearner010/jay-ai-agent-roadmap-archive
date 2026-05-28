@@ -25,8 +25,15 @@
 2. 列出 Java + AI 后端网关还缺的 3 个最小项。
 3. 不新增功能。
 
+## 科班基础嵌入
+
+- 今日基础点：系统边界。
+- 对应项目任务：Java 后端、Python AI 服务、数据库职责。
+- 最小验收：能讲清三个组件各自负责什么。
+
 ## 推荐阅读材料
 
+- 本仓库：`resources/cs-foundations-side-track.md` 的 Week 11 Day 7
 - 本仓库：`resources/java-side-track.md` 的“AI 任务网关”
 - 本仓库：templates/weekly-review.md
 

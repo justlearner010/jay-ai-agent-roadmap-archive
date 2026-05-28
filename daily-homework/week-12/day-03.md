@@ -25,8 +25,15 @@
 2. AI Agent 版突出 RAG / LLM / 评估 / 日志。
 3. Java 后端版突出 Spring Boot / 数据库 / REST API / 测试 / 服务调用。
 
+## 科班基础嵌入
+
+- 今日基础点：抽象表达。
+- 对应项目任务：同一项目的 AI 版和 Java 后端版 bullet。
+- 最小验收：能把技术动作映射到岗位关键词。
+
 ## 推荐阅读材料
 
+- 本仓库：`resources/cs-foundations-side-track.md` 的 Week 12 Day 3
 - 本仓库：`resources/java-side-track.md` 的“AI 任务网关”
 - 本仓库：templates/resume-bullets.md
 - 本仓库：interview/ai-agent-interview-checklist.md 的项目讲解结构

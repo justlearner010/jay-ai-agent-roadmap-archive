@@ -6,6 +6,26 @@
 
 科班基础嵌入：数据校验、错误分类、日志与可观测性；把 Python / Pydantic 校验思路过渡成 Java Bean Validation 和错误响应。
 
+## 本周源码阅读
+
+主线阅读：阅读 [fastapi/full-stack-fastapi-template](https://github.com/fastapi/full-stack-fastapi-template) 中和 Pydantic schema / API 输入校验相关的文件。
+
+只看：
+
+- 一个 request / response schema。
+- 一个 API 路由如何调用 schema。
+
+迁移点：给自己的总结接口写清输入长度限制和错误提示。
+
+Java 后端对照：阅读 [spring-guides/gs-validating-form-input](https://github.com/spring-guides/gs-validating-form-input)。
+
+只看：
+
+- 一个带校验注解的 model。
+- 一个 Controller 如何处理校验结果。
+
+迁移点：给 Java 请求 DTO 写一个字段校验或写出校验计划。
+
 ## 每日入口
 
 - [2026-07-13 周一：输入长度限制](./day-01.md)

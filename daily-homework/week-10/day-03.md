@@ -25,8 +25,15 @@
 2. 完成一次写入和一次查询验证。
 3. 如果数据库环境未就绪，写清缺少的连接配置和下一步。
 
+## 科班基础嵌入
+
+- 今日基础点：表设计和数据访问层。
+- 对应项目任务：`documents` 写入查询、Repository / Mapper。
+- 最小验收：能解释 Controller / Service / Repository 的边界。
+
 ## 推荐阅读材料
 
+- 本仓库：`resources/cs-foundations-side-track.md` 的 Week 10 Day 3
 - 本仓库：`resources/java-side-track.md` 的“CRUD 和数据库”
 - Python Docs - json：https://docs.python.org/3/library/json.html
 - Python Docs - sqlite3：https://docs.python.org/3/library/sqlite3.html

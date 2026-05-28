@@ -25,8 +25,15 @@
 2. 当前阶段可以先用内存存储，不接数据库。
 3. 记录一次创建和一次查询的请求/响应样例。
 
+## 科班基础嵌入
+
+- 今日基础点：内存状态和 CRUD。
+- 对应项目任务：文档 metadata 创建 / 查询 API。
+- 最小验收：能解释 create 和 read 的输入输出。
+
 ## 推荐阅读材料
 
+- 本仓库：`resources/cs-foundations-side-track.md` 的 Week 9 Day 5
 - 本仓库：`resources/java-side-track.md` 的“CRUD 和数据库”
 - 本仓库：templates/daily-learning-log-template.md
 - 本仓库：github-portfolio-checklist.md 的评估集要求

@@ -25,8 +25,15 @@
 2. 写清楚 service 的输入、返回值和异常情况。
 3. 只做类边界，不引入 Spring Boot。
 
+## 科班基础嵌入
+
+- 今日基础点：API 数据契约。
+- 对应项目任务：Next.js request / response，Java service 输入输出。
+- 最小验收：能写出请求体、响应体和 service 方法签名。
+
 ## 推荐阅读材料
 
+- 本仓库：`resources/cs-foundations-side-track.md` 的 Week 6 Day 2
 - 本仓库：`resources/java-side-track.md` 的“Class、Service 和异常”
 - MDN - HTTP response status codes：https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status
 - TypeScript Handbook - Object Types：https://www.typescriptlang.org/docs/handbook/2/objects.html

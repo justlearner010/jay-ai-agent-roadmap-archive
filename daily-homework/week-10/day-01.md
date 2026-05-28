@@ -25,8 +25,15 @@
 2. 写出 `documents` 表结构草稿。
 3. 说明为什么这个阶段不引入 Redis、Spring Cloud 或复杂权限。
 
+## 科班基础嵌入
+
+- 今日基础点：持久化选择。
+- 对应项目任务：JSON / SQLite / PostgreSQL / MySQL 对比。
+- 最小验收：能说明当前阶段为什么选择某个存储。
+
 ## 推荐阅读材料
 
+- 本仓库：`resources/cs-foundations-side-track.md` 的 Week 10 Day 1
 - 本仓库：`resources/java-side-track.md` 的“CRUD 和数据库”
 - SQLite Docs - About SQLite：https://www.sqlite.org/about.html
 - Python Docs - sqlite3：https://docs.python.org/3/library/sqlite3.html

@@ -25,8 +25,15 @@
 2. 记录数据库重启后是否还能查到文档记录。
 3. 不新增 AI 任务模型，留到第 11 周。
 
+## 科班基础嵌入
+
+- 今日基础点：数据可靠性。
+- 对应项目任务：重启后数据仍可查询。
+- 最小验收：能记录一次重启前后的查询证据。
+
 ## 推荐阅读材料
 
+- 本仓库：`resources/cs-foundations-side-track.md` 的 Week 10 Day 7
 - 本仓库：`resources/java-side-track.md` 的“CRUD 和数据库”
 - 本仓库：templates/weekly-review.md
 

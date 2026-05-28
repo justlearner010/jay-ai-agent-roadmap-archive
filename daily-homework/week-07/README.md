@@ -6,6 +6,26 @@
 
 科班基础嵌入：环境变量、API key 安全、网络请求失败处理；把 Next.js / Python 服务端 API 经验过渡成 Spring Boot Controller 和 JSON 响应。
 
+## 本周源码阅读
+
+主线阅读：继续看 [fastapi/full-stack-fastapi-template](https://github.com/fastapi/full-stack-fastapi-template)。
+
+只看：
+
+- 环境变量或配置相关文件。
+- 一个 API 调用失败时如何返回错误。
+
+迁移点：确认自己的 LLM API key 不进前端、不进 GitHub，并在 README 写清配置方式。
+
+Java 后端对照：阅读 [spring-guides/gs-rest-service](https://github.com/spring-guides/gs-rest-service)。
+
+只看：
+
+- README。
+- `GreetingController` 或同等最小 Controller 文件。
+
+迁移点：写一个 Spring Boot Hello JSON API 或请求记录。
+
 ## 每日入口
 
 - [2026-07-06 周一：环境变量和密钥边界](./day-01.md)

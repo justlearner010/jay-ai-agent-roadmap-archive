@@ -6,6 +6,19 @@
 
 科班基础嵌入：函数边界、模块依赖、可测试性、错误传播。
 
+## 本周源码阅读
+
+主线阅读：阅读 [pytest-dev/pytest](https://github.com/pytest-dev/pytest) 的 README 和示例目录。
+
+只看：
+
+- README 里测试函数的写法。
+- 一个最短的 test 文件示例。
+
+迁移点：给自己的 CLI 核心函数补 1 个最小测试，先测试正常输入，不追求覆盖所有边界。
+
+Java 后端对照：不安排。测试习惯先在 Python 里建立。
+
 ## 每日入口
 
 - [2026-06-15 周一：pytest fixture](./day-01.md)

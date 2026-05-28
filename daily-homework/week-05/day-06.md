@@ -25,8 +25,15 @@
 2. 在 README 或学习日志里记录 JUnit 和 pytest 在写法、断言、运行命令上的一个相同点和一个不同点。
 3. 不增加新 Java 功能，只验证已有练习。
 
+## 科班基础嵌入
+
+- 今日基础点：测试边界。
+- 对应项目任务：JUnit 测 Java 小函数，主线处理 UI 状态。
+- 最小验收：能说出一个正常输入和一个边界输入。
+
 ## 推荐阅读材料
 
+- 本仓库：`resources/cs-foundations-side-track.md` 的 Week 5 Day 6
 - 本仓库：`resources/java-side-track.md` 的“Maven 和 JUnit”
 - React Docs - Conditional Rendering：https://react.dev/learn/conditional-rendering
 - Next.js Docs - Styling：https://nextjs.org/docs/app/getting-started/css
