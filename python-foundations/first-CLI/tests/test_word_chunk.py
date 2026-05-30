@@ -1,15 +1,14 @@
-import sys
-from pathlib import Path
 
-sys.path.append(str(Path(__file__).resolve().parent.parent))
-from word_chunk import text_chunk
+from word_chunk import Wordchunk
 
 
 def test_text_chunk_basic(tmp_path):
-    test_file = tmp_path / "sample].txt"
+    test_file = tmp_path / "sample.txt"
     test_file.write_text("abcdef", encoding="utf-8")
 
-    result = text_chunk(test_file, 2)
+    obj = Wordchunk(test_file,chunk_size=2)
+
+    result = obj.text_chunk()
 
     assert result == [
         {
