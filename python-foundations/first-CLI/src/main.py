@@ -6,12 +6,22 @@ from word_chunk import Wordchunk
 from create_json import create_json
 from text_status import TextStats
 
-parser = argparse.ArgumentParser()
+parser = argparse.ArgumentParser(
+    description="Analyze text files and generate chunk."
+)
 
-parser.add_argument("filename")
-parser.add_argument("--chunk_size", type=int, default=500)
+parser.add_argument("filename",
+                    help="Input text file")
+parser.add_argument("--chunk_size", type=int, default=500,
+                    help= "Words per chunk")
 args = parser.parse_args()
 
+
+parser.add_argument(
+    "--summary",
+    action="store_true",
+    help="Show summary only"
+)
 
 
 
@@ -21,11 +31,14 @@ chunk_size = args.chunk_size
 
 try:
     with open(fname) as f:
-        print(0)        
+        print("Open the file successfully!")        
 except FileNotFoundError:
     sys.exit("File does not found")
 
 
+if(chunk_size <= 0):
+    sys.exit("Chunk size is invalid")
+    
 stats = TextStats(fname)
 
 
@@ -54,3 +67,9 @@ print(f"空格数为{space}")#打印空格数
 digit = stats.digit_check()
 
 print(f"数字的个数为{digit}")#打印数字数
+
+
+if args.summary:
+    print(f"Words: {words}")
+    print(f"Lines: {lines}")
+    sys.exit()
