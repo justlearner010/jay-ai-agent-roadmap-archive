@@ -91,4 +91,4 @@ if args.createjson:
     create_json(chunks)#输出json文件
     print("Successfully create the json")
 
-sys.exit("运行完毕")
+print("运行完毕")
