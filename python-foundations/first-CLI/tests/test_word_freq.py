@@ -1,7 +1,3 @@
-import sys
-from pathlib import Path
-
-sys.path.append(str(Path(__file__).resolve().parent.parent))
 
 from word_freq import word_freq_cnt
 
@@ -9,7 +5,7 @@ from word_freq import word_freq_cnt
 
 def test_word_freq_basic(tmp_path):
     test_file = tmp_path / "test.txt"
-    
+
     test_file.write_text(
         "apple banana apple\nbanana orange apple"
     )

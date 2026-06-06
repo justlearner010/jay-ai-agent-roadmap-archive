@@ -70,7 +70,7 @@ python3 scripts/new_daily_entry.py note --topic "collections.Counter"
 - `weekly-operating-system.md`：每周计划、时间分配和复盘方式。
 - `resources/learning-resources.md`：课程、官方文档、推荐书目、后端技术栈、语言学习策略。
 - `templates/open-source-reading-note-template.md`：每周阅读开源项目时使用的记录模板。
-- `templates/daily-learning-log-template.md`：每日学习日志模板，记录今天做了什么和明天做什么。
+- `templates/daily-learning-log-template.md`：轻量每日学习日志模板，只保留今日三行和可选证据。
 - `templates/daily-study-note-template.md`：每日学习笔记模板，整理一个具体概念或知识点。
 - `homework-review-system.md`：每日作业提交、批改、修改、复查流程。
 - `templates/daily-homework-submission-template.md`：每天请求作业批改时使用的提交模板。

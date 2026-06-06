@@ -10,3 +10,9 @@ tests/test_new_daily_entry.py
 templates/vocabulary-daily-entry.md
 templates/vocabulary-biweekly-check.md
 first_cli_demo.mov
+
+# Python local environments and test caches
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
