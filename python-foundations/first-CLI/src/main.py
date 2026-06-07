@@ -1,4 +1,5 @@
 import argparse
+import logging
 import sys
 
 from summarize import summarize_text
@@ -6,6 +7,12 @@ from word_freq import word_freq_cnt
 from word_chunk import Wordchunk
 from create_json import create_json
 from text_status import TextStats
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(levelname)s:%(name)s:%(message)s",
+)
+logger = logging.getLogger(__name__)
 
 parser = argparse.ArgumentParser(
     description="Analyze text files and generate chunk."
@@ -46,16 +53,25 @@ args = parser.parse_args()
 # 传入文件名、词块大小
 fname = args.filename
 chunk_size = args.chunk_size
+output_path = "test.json"
+
+logger.info("Program started. input_file=%s chunk_size=%s", fname, chunk_size)
 
 try:
     with open(fname) as f:
-        print("Open the file successfully!")        
         text = f.read()
 except FileNotFoundError:
-    sys.exit("File does not found")
+    logger.error("Input file does not exist. input_file=%s", fname)
+    sys.exit("File does not exist")
 
+if not text.strip():
+    logger.error("Input file is empty. input_file=%s", fname)
+    sys.exit("Input file is empty")
+
+logger.info("Input file loaded. input_length=%s", len(text))
 
 if(chunk_size <= 0):
+    logger.error("Chunk size is invalid. chunk_size=%s", chunk_size)
     sys.exit("Chunk size is invalid")
     
 stats = TextStats(fname)
@@ -89,6 +105,8 @@ if args.status:
     print(f"空格数为{space}")#打印空格数
 if args.createjson:
     create_json(chunks)#输出json文件
+    logger.info("JSON output created. output_path=%s", output_path)
     print("Successfully create the json")
 
+logger.info("Program finished.")
 print("运行完毕")
