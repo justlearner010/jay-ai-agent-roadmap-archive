@@ -1,6 +1,7 @@
 
 import logging
 import sys
+from pathlib import Path
 
 from cli import parse_args
 from summarize import summarize_text
@@ -59,6 +60,11 @@ def main():
     space = stats.space_check()
     digit = stats.digit_check()
 
+    output_file = (
+    Path("output")
+    / f"{Path(fname).stem}.json"
+    )
+
 
 
     if args.summary:
@@ -76,11 +82,11 @@ def main():
         print(f"数字的个数为{digit}")#打印数字数
         print(f"空格数为{space}")#打印空格数
     if args.createjson:
-        create_json(chunks)#输出json文件
+        create_json(chunks,output_file)#输出json文件
         logger.info("JSON output created. output_path=%s", output_path)
         print("Successfully create the json")
 
     logger.info("Program finished.")
     print("运行完毕")
-if __name__ == "__main":
+if __name__ == "__main__":
     main()
