@@ -1,8 +1,13 @@
+from pathlib import Path
 import json
+import logging
 import sys
+output_path = Path("output") / "chunks.json"
+
+logger = logging.getLogger(__name__)
 def create_json(chunks):
     try:
-        with open("test.json","w")as f:
+        with output_path.open("w",encoding="utf-8")as f:
             json.dump(
                 chunks,
                 f,
@@ -10,4 +15,5 @@ def create_json(chunks):
                 indent=4
             )
     except FileNotFoundError:
-        sys.exit("File does not exist")
+        logger.exception("文件读取失败")
+        raise
