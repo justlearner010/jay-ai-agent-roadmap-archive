@@ -1,31 +1,33 @@
 from create_json import create_json
 import json
-def test_create_json_file(tmp_path):
+import pytest
 
+@pytest.fixture
+def output_file(tmp_path):
     output_file = tmp_path / "result.json"
 
+    return output_file
+
+@pytest.fixture
+def sample_data():
     data = {
         "summary": "hello",
         "mode": "brief",
         "input_chars": 5,
     }
 
-    result = create_json(data, output_file)
+    return data
+
+
+def test_create_json_file(output_file,sample_data):
+    result = create_json(sample_data, output_file)
 
     assert result == output_file
     assert output_file.exists()
 
-def test_create_json_content(tmp_path):
+def test_create_json_content(output_file,sample_data):
 
-    output_file = tmp_path / "result.json"
-
-    data = {
-        "summary": "hello",
-        "mode": "brief",
-        "input_chars": 5,
-    }
-
-    create_json(data, output_file)
+    create_json(sample_data, output_file)
 
     with output_file.open(
         "r",
@@ -33,4 +35,13 @@ def test_create_json_content(tmp_path):
     ) as f:
         loaded = json.load(f)
 
-    assert loaded == data
+    assert loaded == sample_data
+@pytest.fixture
+def parent_file(tmp_path):
+    output_file = tmp_path / "nested" / "result.json"
+    return output_file
+
+def test_create_json_creates_parent_directory(parent_file,sample_data):
+
+    create_json(sample_data, parent_file)
+    assert parent_file.exists()
