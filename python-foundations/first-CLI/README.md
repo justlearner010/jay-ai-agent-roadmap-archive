@@ -71,3 +71,9 @@
 - 
 
 
+## pytest使用方法
+- first-CLI/src/tests为test文件夹
+
+- ./.venv/bin/python -m pytest
+进行所有文件测试
+
