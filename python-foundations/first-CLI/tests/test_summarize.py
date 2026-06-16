@@ -1,38 +1,11 @@
-# import pytest
-
-# from summarize import summarize_text
-
-
-# def test_summarize_brief_counts_words():
-#     result = summarize_text("hello world", mode="brief")
-
-#     assert result == "Brief summary: this text has 2 words"
-
-
-# def test_summarize_empty_text():
-#     result = summarize_text("", mode="brief")
-
-#     assert result == "No content to summarize."
-
-
-# def test_summarize_bullets_counts_words_and_characters():
-#     result = summarize_text("hello world", mode="bullets")
-
-#     assert result == [
-#         "- Word count: 2",
-#         "- Character count: 11",
-#         "- Mock summary: this is a placeholder summary.",
-#     ]
-
-
-# def test_summarize_rejects_unknown_mode():
-#     with pytest.raises(ValueError):
-#         summarize_text("hello world", mode="unknown")
-
-
 import pytest
-
-from summarize import summarize_text
+from openai import OpenAI
+from summarize import (
+    summarize_text,
+    MOCKLLM,
+    Summarizer,
+    OpenAILLM
+)
 
 
 @pytest.mark.parametrize(
@@ -53,6 +26,7 @@ from summarize import summarize_text
     ],
 )
 def test_summarize_brief(text, expected):
+
     assert summarize_text(text, mode="brief") == expected
 
 
@@ -110,3 +84,30 @@ def test_summarize_rejects_unknown_mode(mode):
 )
 def test_future_chinese_word_segmentation(text, expected):
     assert summarize_text(text, mode="brief") == expected
+
+
+def test_mock_llm():
+    llm = MOCKLLM()
+
+    result = llm.summarize("hello")
+
+    assert result == "fake summary"
+
+def test_openai_llm(monkeypatch):
+
+    class FakeResponse:
+        output_text = "fake gpt answer"
+
+    def fake_create(*args,**kwargs):
+        return FakeResponse()
+    
+    monkeypatch.setattr(
+        "openai.resources.responses.Responses.create",
+        fake_create
+    )
+
+    llm = OpenAILLM()
+
+    result = llm.summarize_with_llm("hello")
+
+    assert result == "fake gpt answer"
