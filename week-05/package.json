@@ -1,0 +1,15 @@
+{
+  "name": "week-05-typescript-learning",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local TypeScript environment for Week 5 exercises",
+  "scripts": {
+    "check": "tsc --noEmit",
+    "check:watch": "tsc --noEmit --watch",
+    "run:health": "tsx environment-check.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.3"
+  }
+}
