@@ -4,6 +4,106 @@
 
 学习原则：不要囤资源。每个阶段只选 1-2 个主资源，并且必须和当前项目绑定。
 
+## 开源项目阅读
+
+目标：用真实项目校准自己的代码和项目习惯，避免只在本地闭门造车。
+
+阅读比例：
+
+- 70%：AI Agent / RAG / LLM 应用工程主线。
+- 30%：Java / Spring Boot 后端副线。
+
+执行规则：
+
+- 每周最多读 1 个开源项目。
+- 每次最多读 1-2 个文件，不通读整个仓库。
+- 必须和本周作业直接相关。
+- 必须产出 `templates/open-source-reading-note-template.md` 格式的阅读记录。
+- 只迁移 1 个小点到自己的项目，例如参数检查、README 运行命令、错误提示、目录命名或测试样例。
+- 不以 star 数作为唯一标准，优先选和当前能力匹配、README 清楚、能本地运行或能看懂单个文件的项目。
+
+### 第 1-4 周：Python 和工程基本功
+
+目标不是看大项目，而是学真实项目里的小习惯：
+
+- README 如何写运行命令。
+- 命令行参数如何处理。
+- 文件路径和 JSON 输出如何命名。
+- 错误提示如何写给用户看。
+
+阅读方式：
+
+- 只看 README、一个入口文件、一个工具函数文件。
+- 如果 20 分钟内看不懂，换更小的文件，不硬啃。
+
+### 第 5-8 周：Java 后端副线
+
+推荐项目：
+
+1. Spring REST 入门项目
+   链接：https://github.com/spring-guides/gs-rest-service
+   适合阶段：刚开始 Spring Boot REST API。
+   只看：README、Controller 文件、请求/响应示例。
+   迁移目标：给自己的 Java 小 API 写一个固定 JSON 响应和 README 请求示例。
+
+2. Spring PetClinic
+   链接：https://github.com/spring-projects/spring-petclinic
+   适合阶段：学到 Controller / Service / Repository / 数据库之后。
+   只看：README、主启动类、一个 Controller、一个 Repository 或 Model。
+   迁移目标：理解企业后端常见目录边界，不要求现在复刻完整项目。
+
+### 第 8-12 周：FastAPI / 全栈后端
+
+推荐项目：
+
+1. Full Stack FastAPI Template
+   链接：https://github.com/fastapi/full-stack-fastapi-template
+   适合阶段：已经接触 FastAPI、Pydantic、PostgreSQL、Docker 后。
+   只看：`backend/README.md`、配置文件、一个 API 路由。
+   迁移目标：学习环境变量、后端 README、API 模块组织和数据库边界。
+
+### RAG 阶段：2026-08 到 2026-10
+
+推荐项目：
+
+1. LangChain RAG from Scratch
+   链接：https://github.com/langchain-ai/rag-from-scratch
+   适合阶段：开始个人 RAG 知识库项目时。
+   只看：和 indexing、retrieval、generation 相关的一个 notebook 或一个片段。
+   迁移目标：把自己的 chunking、embedding、retrieval、answer generation 拆成清楚步骤。
+
+### 跨阶段参考：AI Engineering from Scratch
+
+项目链接：https://github.com/rohitg00/ai-engineering-from-scratch
+
+定位：长期参考书和开源阅读素材，不作为每日主线课程。每次只读和当前阶段直接相关的 1-2 个 lesson，并迁移一个小点到自己的作业或项目。
+
+对应阅读章节：
+
+- 第 1-4 周：Phase 0 `Setup & Tooling`，只读 Dev Environment、Git & Collaboration、APIs & Keys、Python Environments、Terminal & Shell、Debugging & Profiling；Phase 5 `NLP Foundations`，只读 Text Processing、Text Summarization、Information Retrieval & Search、Chunking Strategies for RAG。
+- 第 5-8 周：Phase 11 `LLM Engineering`，只读 Prompt Engineering、Structured Outputs、Embeddings & Vector Representations、Evaluation & Testing、Caching / Rate Limiting / Cost、Guardrails & Safety、Building a Production LLM App。
+- 第 9-12 周：Phase 11 继续读 Context Engineering、RAG、Advanced RAG、Evaluation & Testing、Building a Production LLM App，为 AI 学习助手的问答、历史记录和第一次作品集复盘服务。
+- RAG 阶段：Phase 5 重点读 Embedding Models Deep Dive、Chunking Strategies for RAG、LLM Evaluation；Phase 11 重点读 Embeddings、RAG、Advanced RAG、Evaluation & Testing、Caching / Rate Limiting / Cost。
+- Agent 阶段：Phase 11 读 Function Calling & Tool Use、LangGraph、Agent Framework Tradeoffs；Phase 13 读 Tool Interface、Function Calling Deep Dive、Structured Output、Tool Schema Design；Phase 14 读 Agent Loop、Plan-and-Execute、Tool Use、LangGraph、Failure Modes、Prompt Injection Defense、Eval-Driven Agent Development、Verification Gates。
+- 作品集阶段：Phase 19 只参考 Capstone 项目命名和 README 表达，优先看 RAG over Codebase、Autonomous Research Agent、Production RAG Chatbot、LLM Observability & Eval Dashboard、GitHub Issue-to-PR Autonomous Agent、Personal AI Tutor。
+
+阅读纪律：
+
+- 不按顺序全刷 485 lessons。
+- 每周最多读 1-2 个 lesson。
+- 当前作业没有用到的数学、Transformer、RL、多模态章节先跳过。
+- 阅读后必须写开源阅读记录，并说明“本周只迁移的一个小点”。
+
+### 阅读后必须回答
+
+每次开源阅读结束后，至少回答：
+
+1. 这个项目的目录结构解决了什么问题？
+2. 我今天只看了哪 1-2 个文件？
+3. 有哪一个写法比我的当前作业更接近工业界？
+4. 我能迁移到自己项目的最小动作是什么？
+5. 哪些内容现在还太难，先不学？
+
 ## 核心文档
 
 - Python: https://docs.python.org/3/
@@ -27,6 +127,7 @@
 - MyBatis: https://mybatis.org/mybatis-3/
 - Redis: https://redis.io/docs/
 - 本仓库 Java 副线语法过渡：`resources/java-side-track.md`
+- 本仓库科班基础嵌入过渡：`resources/cs-foundations-side-track.md`
 
 ## 必须掌握的主题
 
@@ -41,6 +142,7 @@
 - Java 集合、异常、Maven 和 JUnit。
 - Spring Boot REST API、参数校验和数据库 CRUD。
 - Java 后端调用 Python RAG / Agent 服务的基本模式。
+- 用项目例子解释字符串、哈希表、HTTP、错误传播、CRUD、状态机和系统边界。
 
 ## 推荐课程
 

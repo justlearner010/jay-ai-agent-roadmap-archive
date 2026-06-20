@@ -36,6 +36,7 @@ def test_create_json_content(output_file,sample_data):
         loaded = json.load(f)
 
     assert loaded == sample_data
+
 @pytest.fixture
 def parent_file(tmp_path):
     output_file = tmp_path / "nested" / "result.json"

@@ -1,1 +1,20 @@
 日期,作业文件,学习日志,评分,等级,必改项数量,是否已复查,是否已推送GitHub,备注
+2026-06-01,daily-homework/week-02/day-01.md,learning-log/second-week-log/2026-06-01学习日志.md,72,勉强合格,2,未记录,否,补类型标注和 Git 证据
+2026-06-02,daily-homework/week-02/day-02.md,learning-log/second-week-log/2026-06-02学习日志.md,67,勉强合格,2,未记录,否,补 two_sum 和 group_words 返回值
+2026-06-03,learning-log/weekly_review/第二周复盘.md,learning-log/weekly_review/第二周复盘.md,74,合格,3,未记录,否,周中总结需补证据字段
+2026-06-04,daily-homework/week-03/day-01.md,learning-log/second-week-log/2026-06-04学习日志.md,76,合格,2,未记录,否,补虚拟环境命令和项目环境落点
+2026-06-05,daily-homework/week-03/day-02.md,learning-log/third-week-log/2026-06-05日志.md,66,勉强合格,2,未记录,否,修 argparse 顺序并补 CLI 运行证据
+2026-06-06,daily-homework/week-03/day-03.md,learning-log/third-week-log/2026-06-06日志：.md,83,合格,0,已复查,否,复查后 11 passed；本轮已验证 summary 返回成功
+2026-06-07,daily-homework/week-03/day-04.md,learning-log/third-week-log/2026-06-07日志.md,72,勉强合格,2,未记录,否,代码日志合格；补学习日志和失败示例后上传
+2026-06-08,daily-homework/week-03/day-05.md,learning-log/third-week-log/2026-06-08日志：.md,82,合格,0,已复查,否,第二次复查通过；补学习日志证据后可上传
+2026-06-09,daily-homework/week-03/day-06.md,learning-log/third-week-log/2026-06-09日志.md,86,合格,1,未记录,否,pytest 15 passed；补 Codex 问题和 create_json 参数理解
+2026-06-10,daily-homework/week-03/day-07.md,learning-log/weekly_review/第三周复盘.md,78,合格,2,未记录,否,补 CLI 支持清单和 weekly-log 真实证据
+2026-06-11,daily-homework/week-04/day-01.md,learning-log/fourth-week-log/2026-06-11日志.md,83,合格,2,未记录,否,补实际命令证据和具体明日第一步
+2026-06-12,daily-homework/week-04/day-02.md,learning-log/fourth-week-log/2026-06-12日志.md,84,合格,2,未记录,否,清理旧测试注释并补 parametrize 理解
+2026-06-13,daily-homework/week-04/day-03.md,learning-log/fourth-week-log/2026-06-13日志.md,58,需要重做关键部分,2,已复查,否,monkeypatch 接口和失败路径复查已通过
+2026-06-14,daily-homework/week-04/day-04.md,learning-log/fourth-week-log/2026-06-14日志.md,72,勉强合格,2,未记录,否,补 README 测试说明与真实日志
+2026-06-15,daily-homework/week-04/day-05.md,learning-log/fourth-week-log/2026-06-15 日志.md,52,需要重做关键部分,2,已复查,否,OpenAI 延迟导入和统一 LLM 接口复查已通过
+2026-06-16,daily-homework/week-04/day-06.md,learning-log/fourth-week-log/2026-06-16日志.md,68,基本通过,2,未记录,否,校正 README 路径并补 30 passed / 1 xfailed 证据
+2026-06-17,learning-log/weekly_review/第四周复盘.md,learning-log/weekly_review/第四周复盘.md,56,未完整通过,2,已复查,否,复盘与下周 API 契约已补齐
+2026-06-18,daily-homework/week-05/day-01.md,learning-log/fifth-week log/2026-06-18日志.md,70,勉强合格,2,已复查,否,keywords 契约与失败/成功检查已于 2026-06-21 复查通过
+2026-06-19,daily-homework/week-05/day-02.md,learning-log/fifth-week log/2026-06-19日志.md,78,合格,2,已复查,否,interface/as/validator 边界已于 2026-06-21 复查通过

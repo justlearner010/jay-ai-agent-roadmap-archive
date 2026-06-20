@@ -1,12 +1,12 @@
 技能,类别,目标水平,当前水平,证据,下一步行动,截止日期
-Python 基础,工程,达到面试可用水平,,,,2026-07-31
-数据结构基础,科班基础,能用项目例子解释数组/字符串/哈希表/栈/队列,,,,2026-07-31
-pytest,工程,能测试核心逻辑,,,,2026-07-31
+Python 基础,工程,达到面试可用水平,进行中：函数/文件/异常/CLI 基础已练习,python-foundations/practice；python-foundations/first-CLI；first-CLI 30 passed / 1 xfailed,将 first-CLI 的输入/输出契约迁移到 AI 学习助手前端,2026-07-31
+数据结构基础,科班基础,能用项目例子解释数组/字符串/哈希表/栈/队列,进行中：字符串/数组/哈希表基础练习,python-foundations/practice/src,继续每天 20-30 分钟微练习并记录卡点,2026-07-31
+pytest,工程,能测试核心逻辑,进行中：能用 fixture/parametrize/mock 测试核心函数,first-CLI 30 passed / 1 xfailed；practice 15 passed,前端雏形完成后将成功/错误状态纳入对应测试,2026-07-31
 FastAPI,后端,能构建接近真实项目的 API,,,,2026-10-31
-TypeScript,前端,能写类型清楚的 UI 和 API 调用,,,,2026-07-31
-Next.js,前端,能完成作品集 Web App,,,,2027-04-30
-Git/GitHub,工作流,能维护清晰公开仓库和 PR,,,,2026-07-31
-LLM API,AI,掌握流式输出、结构化输出和工具调用,,,,2026-10-31
+TypeScript,前端,能写类型清楚的 UI 和 API 调用,进行中：已练习 union/interface/API contract/runtime validator,week-05/type-practice.ts；npm run check 通过,把 SummarizeRequest/Response 迁移到 Next.js typed mock 页面,2026-07-31
+Next.js,前端,能完成作品集 Web App,准备开始：页面契约与四状态已定义,this-week.md；week-06/README.md,完成输入/模式/提交和 idle-loading-success-error 页面雏形,2027-04-30
+Git/GitHub,工作流,能维护清晰公开仓库和 PR,进行中：已建立里程碑分支但当前改动尚未推送,codex/assetize-learning-roadmap；git status,整理里程碑范围，验证后提交并推送,2026-07-31
+LLM API,AI,掌握流式输出、结构化输出和工具调用,未开始真实 API；已完成 mock LLM 接口雏形,python-foundations/first-CLI/src/summarize.py,第 7 周再接真实 API；当前只完善 mock 替换边界,2026-10-31
 Embedding,AI,能解释并实现,,,,2026-09-30
 RAG,AI,能构建和评估,,,,2026-10-31
 向量数据库,AI,能使用 Chroma 或 FAISS,,,,2026-10-31
@@ -19,7 +19,7 @@ SQL/数据库,后端,能完成基础应用持久化,,,,2027-02-28
 部署,DevOps,前端和后端都能部署,,,,2027-04-30
 算法面试基础,科班基础,能完成常见数组/哈希/双指针/树/图/DP 基础题,,,,2027-04-30
 面试表达,求职,能完成 5 分钟项目讲解,,,,2027-04-30
-Java 基础,后端,能用 Java 写基础函数/集合/类/异常并配 JUnit 测试,,,,2026-08-31
+Java 基础,后端,能用 Java 写基础函数/集合/类/异常并配 JUnit 测试,未开始；第 5-8 周限制每周 2 小时,,本周只完成一个 Java 小函数和一个运行或 JUnit 证据,2026-08-31
 Spring Boot REST API,后端,能实现 JSON 请求响应/参数校验/错误处理,,,,2026-09-30
 MySQL/PostgreSQL 表设计,后端,能为文档/任务/历史记录设计基础表结构,,,,2026-10-31
 MyBatis 或 JPA,后端,能二选一完成基础 CRUD 持久化,,,,2026-10-31

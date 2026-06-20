@@ -25,7 +25,6 @@ def main():
     # 传入文件名、词块大小
     fname = args.filename
     chunk_size = args.chunk_size
-    output_path = "test.json"
 
     logger.info("Program started. input_file=%s chunk_size=%s", fname, chunk_size)
 
@@ -45,7 +44,7 @@ def main():
     if(chunk_size <= 0):
         logger.error("Chunk size is invalid. chunk_size=%s", chunk_size)
         sys.exit("Chunk size is invalid")
-        
+
     stats = TextStats(fname)
 
 
@@ -82,8 +81,13 @@ def main():
         print(f"数字的个数为{digit}")#打印数字数
         print(f"空格数为{space}")#打印空格数
     if args.createjson:
-        create_json(chunks,output_file)#输出json文件
-        logger.info("JSON output created. output_path=%s", output_path)
+        json_result = {
+            "summary": summarize_text(text, mode="brief"),
+            "mode": "brief",
+            "input_chars": len(text),
+        }
+        create_json(json_result, output_file)#输出json文件
+        logger.info("JSON output created. output_path=%s", output_file)
         print("Successfully create the json")
 
     logger.info("Program finished.")

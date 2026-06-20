@@ -1,79 +1,135 @@
-# 文本处理CLI工具
+# 文本处理 CLI 工具
 
-一句话说明：这个系统做什么，为谁解决什么问题。
-这个工具是可以在命令行读入文本然后对于文本进行初步处理
-
-## Demo
-
-- 在线地址：无
-- demo 视频：![[first_cli_demo.mov]]
-- 截图：（模块结构）
-- ![[Pasted image 20260525155833.png]]
-- （json文本）![[Pasted image 20260525155731.png]]
-
-
-## 问题背景
-
-
+这个工具可以在命令行读取文本文件，并完成基础文本处理：文本统计、词频统计、文本切块、JSON 输出和 mock summary。
 
 ## 功能
 
-- 功能 1：读取文本记录文本的单词数、空格数、数字数
-- 功能 2：记录并给出文本的单词词频，并给出词频最高的10个单词以及其词频数
-- 功能 3：将大型文本按照字符串长度进行分块，并生成结构化的.json文件
+- 读取文本，统计行数、单词数、空格数、数字数。
+- 统计词频，并输出词频最高的 10 个单词。
+- 按指定长度切分文本。
+- 把 summary、mode、input_chars 等结果保存为 JSON。
+- 使用 mock summary 模拟后续 LLM 总结能力。
 
-## 架构
+## 项目结构
 
-说明或画图展示：
-
-- 前端；
-- 后端；
-- LLM provider；
-- 检索/向量库；
-- 数据库；
-- 日志/评估。
+```text
+first-CLI/
+├── src/
+│   ├── cli.py
+│   ├── create_json.py
+│   ├── main.py
+│   ├── summarize.py
+│   ├── text_status.py
+│   ├── word_chunk.py
+│   └── word_freq.py
+├── tests/
+│   ├── test_createjson.py
+│   ├── test_summarize.py
+│   ├── test_text_status.py
+│   ├── test_word_chunk.py
+│   └── test_word_freq.py
+├── pytest.ini
+└── requirements.txt
+```
 
 ## 技术栈
 
-- Python：
-- TypeScript：
-- 框架：
-- 数据库/向量库：
-- LLM provider：
-- 部署：
+- Python
+- pytest
+- argparse
+- pathlib
+- json
+- logging
 
 ## 我具体做了什么
 
-清楚说明你的个人贡献。
-- word_freq.py:统计词频
-- word_status:统计文本的基础信息
-- word_chunk.py:实现文本分块
-- create_json.py:实现json文本的创建
+- `word_freq.py`：统计词频。
+- `text_status.py`：统计文本的基础信息。
+- `word_chunk.py`：实现文本分块。
+- `create_json.py`：实现 JSON 文件创建。
+- `summarize.py`：实现 mock summary，并预留真实 LLM provider 接口。
+- `tests/`：为主要模块补 pytest 测试。
 
-## 评估
+## 安装和运行
 
-- 测试集规模：
-- 检索指标：
-- 回答质量指标：
-- 已知失败案例：
+进入项目目录：
 
-## 学到的东西
-- 使用`with open`语句打开文件，选择操作模式`r`(read) `w`(write)
-- 使用`.readline()/.read()语句读取文件
-- 使用 `collection counter`对于词频进行读取
-- 使用`argparse`在命令行中传递参数
-- 使用`json`模块中的`.dumps()`将python对象转化成json格式的文件
-- 使用`json`模块中的`.dump()`将读取的内容直接写入json文件中
+```bash
+cd python-foundations/first-CLI
+```
 
+安装依赖：
+
+```bash
+./.venv/bin/python -m pip install -r requirements.txt
+```
+
+查看 CLI 参数：
+
+```bash
+./.venv/bin/python src/main.py --help
+```
+
+运行文本统计：
+
+```bash
+./.venv/bin/python src/main.py test1.txt --status
+```
+
+运行词频统计：
+
+```bash
+./.venv/bin/python src/main.py test1.txt --freq
+```
+
+运行 mock summary：
+
+```bash
+./.venv/bin/python src/main.py test1.txt --summary
+```
+
+生成 JSON：
+
+```bash
+./.venv/bin/python src/main.py test1.txt --createjson
+```
+
+## pytest 使用方法
+
+测试目录是 `tests/`。
+
+运行全部测试：
+
+```bash
+./.venv/bin/python -m pytest
+```
+
+只运行某个测试文件：
+
+```bash
+./.venv/bin/python -m pytest tests/test_summarize.py
+```
+
+只运行某个测试函数：
+
+```bash
+./.venv/bin/python -m pytest tests/test_summarize.py::test_summarize_brief
+```
+
+当前测试结果：
+
+```text
+30 passed, 1 xfailed
+```
+
+## 已知限制
+
+- 中文分词还没有实现，所以没有空格的中文文本词数统计不准确。
+- `OpenAILLM` 只是预留真实 LLM 接口，普通单元测试不会调用真实 OpenAI API。
+- README 里的示例主要用于本地复现，还不是完整产品文档。
 
 ## 下一步改进
-- 实现`word_chunk`模块中支持通过语义semantic和段落/句子进行切块
-- 
 
-
-## pytest使用方法
-- first-CLI/src/tests为test文件夹
-
-- ./.venv/bin/python -m pytest
-进行所有文件测试
-
+- 为 Next.js 前端整理 `/api/summarize` 的 request / response 数据结构。
+- 给 CLI 错误路径补更完整的测试或手动运行证据。
+- 后续支持按段落、句子或语义切块。

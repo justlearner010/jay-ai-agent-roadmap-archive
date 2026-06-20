@@ -1,5 +1,4 @@
 import pytest
-from openai import OpenAI
 from summarize import (
     summarize_text,
     MOCKLLM,
@@ -93,21 +92,36 @@ def test_mock_llm():
 
     assert result == "fake summary"
 
-def test_openai_llm(monkeypatch):
 
+def test_summarizer_uses_llm():
+    llm = MOCKLLM()
+    summarizer = Summarizer(llm)
+
+    result = summarizer.run("hello")
+
+    assert result == "fake summary"
+
+
+def test_openai_llm_uses_injected_client():
     class FakeResponse:
         output_text = "fake gpt answer"
 
-    def fake_create(*args,**kwargs):
-        return FakeResponse()
-    
-    monkeypatch.setattr(
-        "openai.resources.responses.Responses.create",
-        fake_create
-    )
+    class FakeResponses:
+        def create(self, **kwargs):
+            self.kwargs = kwargs
+            return FakeResponse()
 
-    llm = OpenAILLM()
+    class FakeClient:
+        def __init__(self):
+            self.responses = FakeResponses()
 
-    result = llm.summarize_with_llm("hello")
+    client = FakeClient()
+    llm = OpenAILLM(client=client, model="test-model")
+
+    result = llm.summarize("hello")
 
     assert result == "fake gpt answer"
+    assert client.responses.kwargs == {
+        "model": "test-model",
+        "input": "请总结一下文本:\nhello",
+    }

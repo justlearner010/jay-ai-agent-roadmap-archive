@@ -10,7 +10,7 @@ def sample_file(tmp_path):
         "456"
     )
 
-    return file 
+    return file
 
 @pytest.fixture
 def stats(sample_file):
@@ -57,6 +57,7 @@ def test_empty_space_check(empty_stats):
 
 def test_empty_digit_check(empty_stats):
     assert empty_stats.digit_check() == 0
+
 def test_file_not_found():
     stats = TextStats("not_exist.txt")
 

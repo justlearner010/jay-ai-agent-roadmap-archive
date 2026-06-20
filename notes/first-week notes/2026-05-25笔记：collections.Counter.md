@@ -109,7 +109,10 @@ cnt = Counter(words)
 ## 获取出现最多的元素
 
 ```
-from collections import Counterwords = ["a","b","a","c","a","b"]cnt = Counter(words)print(cnt.most_common(2))
+from collections import Counter
+words = ["a","b","a","c","a","b"]
+cnt = Counter(words)
+print(cnt.most_common(2))
 ```
 
 输出：
@@ -333,13 +336,10 @@ Python 生态里：
 
 这几个数据结构几乎构成了：
 
-大量文本处理、  
-爬虫、  
-数据分析、  
-NLP、  
+大量文本处理、
+爬虫、
+数据分析、
+NLP、
 AI preprocessing
 
 的基础。
-
-
-
