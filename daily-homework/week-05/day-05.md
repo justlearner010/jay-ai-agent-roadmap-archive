@@ -1,18 +1,19 @@
-# 第 5 周 Day 5：async/fetch mock 流程
+## 任务卡：async/fetch mock 流程
 
-日期：2026-06-26（周五）
+> 适用卡点：当本周主问题需要“async/fetch mock 流程”相关能力、实验或证据时选择。
+> 使用规则：这是一张可选任务卡，没有指定日期或前后顺序；未选择或未完成不形成补债。
 
 本周主题：TypeScript 与 Next.js 页面
 
-今日主问题：结果不能立刻返回时，页面怎样继续运行并在稍后接收结果？
+任务问题：结果不能立刻返回时，页面怎样继续运行并在稍后接收结果？
 
-预计投入：2-3 小时。理解异步流程约 40%，编码、等待验证和迁移约 60%。
+参考投入上限：2-3 小时。只做到足以推进本周主问题的深度，未选内容不延期、不补做。
 
-## 0. 今天在项目中的位置
+## 0. 任务在项目中的位置
 
-- 昨天：页面已经能保存用户输入并判断它是否有效。
-- 今天：把输入交给异步 mock summarize 函数，并在结果返回后展示。
-- 明天：在等待和失败期间给用户明确状态。
+- 已知基础：页面已经能保存用户输入并判断它是否有效。
+- 本任务：把输入交给异步 mock summarize 函数，并在结果返回后展示。
+- 后续：在等待和失败期间给用户明确状态。
 
 ## 1. 先回忆，不看答案（10 分钟）
 
@@ -30,7 +31,7 @@
 2. `await` 前后的代码执行顺序可能怎样变化？
 3. 如果请求失败，函数应该返回假摘要还是抛出错误？
 
-## 4. 今天为什么学
+## 4. 为什么学
 
 `Promise`、`async` 和 `await` 用来表达“工作现在开始，结果未来到达”，是页面连接 API 和 LLM 的必要基础。
 
@@ -48,7 +49,7 @@ Promise 常见状态可以先理解为：等待中、已成功、已失败。异
 
 同步返回的 mock 无法暴露等待期间的 UI 问题。加入 Promise 延迟，可以在不调用真实 API 的情况下练习真实控制流。
 
-与 Python 对照：概念上类似 `async def` 和 `await`，但今天只要求理解 JavaScript/TypeScript 的 Promise 流程。
+与 Python 对照：概念上类似 `async def` 和 `await`，但本任务只要求理解 JavaScript/TypeScript 的 Promise 流程。
 
 常见误区：忘记 `await` 时拿到的是 Promise，不是其中的摘要对象。
 
@@ -76,7 +77,7 @@ Promise 常见状态可以先理解为：等待中、已成功、已失败。异
 
 ## 8. 迁移挑战（约 20 分钟）
 
-让 mock 函数在文本包含 `[fail]` 时拒绝 Promise 或抛出错误。今天只需确认错误确实发生并能被调用方捕获，UI 错误展示留到明天。
+让 mock 函数在文本包含 `[fail]` 时拒绝 Promise 或抛出错误。本任务只需确认错误确实发生并能被调用方捕获，UI 错误展示留到后续。
 
 ## 9. 卡住时的分级提示
 
@@ -112,7 +113,7 @@ async function summarize(text: string, mode: SummaryMode): Promise<______> {
 1. Promise 表达的是什么？
 2. async 函数为什么不能声明成直接返回 `SummaryResult`？
 3. 忘记 await 时，调用方拿到什么？
-4. mock 延迟为明天暴露了什么 UI 问题？
+4. mock 延迟为后续暴露了什么 UI 问题？
 5. 用自己的话复述“点击 → 调用 → 等待 → 更新结果”。
 
 ## 11. 科班基础、算法与自由探索
@@ -122,7 +123,7 @@ async function summarize(text: string, mode: SummaryMode): Promise<______> {
 - 最小验收：能按时间顺序解释 await 前后的行为。
 - 算法和自由探索按总规则执行。
 
-## 12. 推荐阅读、证据与明日入口
+## 12. 推荐阅读、证据与后续入口
 
 - TypeScript Handbook - More on Functions：https://www.typescriptlang.org/docs/handbook/2/functions.html
 - MDN - Using promises：https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises
@@ -130,7 +131,7 @@ async function summarize(text: string, mode: SummaryMode): Promise<______> {
 
 记录文件路径、启动命令、日志顺序、成功与 `[fail]` 结果、最高提示等级、迁移结果和 1-3 个具体问题。
 
-明天第一步：写出请求等待期间用户至少需要看到什么，以及失败后不能继续保留什么状态。
+后续自然动作：写出请求等待期间用户至少需要看到什么，以及失败后不能继续保留什么状态。
 
 ## 提交物与验收
 

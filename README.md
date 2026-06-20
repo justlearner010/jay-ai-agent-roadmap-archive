@@ -1,6 +1,6 @@
 # AI Agent 实习准备路线图
 
-这个文件夹是你的 AI Agent 实习准备工作区。它把长期学习计划拆成路线图、每周执行系统、项目规格、求职追踪表和面试清单。
+这个文件夹是你的 AI Agent 实习准备工作区。长期方向保持稳定，具体学习采用“年度方向 + 滚动 4 周 + 每周主问题”的探索驱动方式。
 
 ## 目标
 
@@ -13,13 +13,13 @@
 
 ## 使用顺序
 
-1. 先看 `daily-homework/README.md`，进入当前周和当天作业。
-2. 看 `this-week.md` 确认唯一主交付物和发布门槛。
-3. 用 `assetization-system.md` 判断今天的学习是否进入了可验证资产。
-4. 用 `daily-homework/week-xx/day-xx.md` 执行前 12 周每日作业。
+1. 先看 `this-week.md`，确认本周主问题、可演示结果和验收条件。
+2. 每天根据项目当前卡点，从 `daily-homework/` 任务库选择最有帮助的一张任务卡；没有卡点时直接推进项目。
+3. 用 `assetization-system.md` 判断主线学习是否进入了可验证资产；受保护的自由探索不要求当周资产化。
+4. 周中做一次无评分诊断，周末做一次项目验收并决定继续、转向或暂存。
 5. 看 `cs-foundations-integration.md`，把科班基础嵌入项目主线。
 6. 用 `resources/learning-resources.md` 选择课程和阅读书目。
-7. 每周用 `weekly-operating-system.md` 做计划和复盘。
+7. 每周用 `weekly-operating-system.md` 提出主问题、安排受保护探索时间并做复盘。
 8. 按顺序完成 `projects/` 里的作品集项目，其中 Java + AI 后端网关用于兼容普通后端实习。
 9. 每周日更新 `trackers/` 里的表格。
 10. 从 2027 年 2 月开始，用 `interview/ai-agent-interview-checklist.md` 准备面试。
@@ -34,7 +34,7 @@
 
 每 2 周完成一个技术里程碑，每 4 周完成一个包含 README、demo、失败案例、简历 bullet 和 5 分钟讲解纲要的可复现版本。
 
-## 每日文件生成
+## 每日轻量记录
 
 创建今天的学习日志：
 
@@ -61,11 +61,11 @@ python3 scripts/new_daily_entry.py note --topic "collections.Counter"
 
 ## 资源入口
 
-- `daily-homework/README.md`：前 12 周每日作业要求和推荐阅读材料入口。
+- `daily-homework/README.md`：第 1-4 周历史作业与第 5-12 周按卡点调用的任务库入口。
 - `assetization-system.md`：把概念、代码、证据、项目和求职材料连成同一条资产链。
 - `conversation-archive/2026-05-20-ai-era-skills-roadmap.md`：本工作区来源对话整理版，记录从“AI 时代应该学什么”到当前路线图的关键决策。
 - `cs-foundations-integration.md`：如何把数据结构、网络、数据库、操作系统等科班基础嵌入 AI Agent 项目。
-- `daily-homework/week-xx/day-xx.md`：前 12 周每天的作业要求、推荐阅读、提交物和验收标准。
+- `daily-homework/week-xx/day-xx.md`：保留原文件名作为稳定链接；第 5-12 周文件是可选任务卡，不代表日期或必做顺序。
 - `weekly-operating-system.md`：每周计划、时间分配和复盘方式。
 - `resources/learning-resources.md`：课程、官方文档、推荐书目、后端技术栈、语言学习策略。
 - `resources/leetcode-problem-list.md`：LeetCode 面试刷题计划，作为项目主线之外的独立面试准备。
@@ -76,10 +76,12 @@ python3 scripts/new_daily_entry.py note --topic "collections.Counter"
 - `templates/daily-learning-log-template.md`：轻量每日学习日志模板，只保留今日三行和可选证据。
 - `templates/daily-study-note-template.md`：每日学习笔记模板，整理一个具体概念或知识点。
 - `templates/project-milestone-review.md`：每 2 周/每 4 周把功能、证据、失败案例、简历 bullet 和 5 分钟讲解收口。
-- `homework-review-system.md`：每日作业提交、批改、修改、复查流程。
-- `templates/daily-homework-submission-template.md`：每天请求作业批改时使用的提交模板。
-- `templates/homework-review-template.md`：Codex 批改作业时使用的评分模板。
-- `trackers/homework-review-log.csv`：记录每日作业评分、复查和推送状态。
+- `homework-review-system.md`：第 1-4 周每日批改历史规则，以及当前周中诊断、周末验收流程。
+- `templates/midweek-diagnosis.md`：周中展示运行结果、诊断最大卡点，不评分。
+- `templates/weekly-acceptance.md`：周末验收主问题、证据和继续/转向/暂存决策。
+- `templates/opportunity-experiment.md`：黑客松、真实开源 Issue 或高价值想法的 7 天实验门槛。
+- `templates/daily-homework-submission-template.md`、`templates/homework-review-template.md`：第 1-4 周历史批改模板，不再作为当前入口。
+- `trackers/homework-review-log.csv`：第 1-4 周每日评分历史；当前周级状态记录到 `trackers/weekly-log.csv`。
 - `trackers/open-source-reading-log.csv`：记录每周开源项目阅读、迁移点和后续动作。
 - `job-description-analysis-template.md`：分析具体岗位需要补哪些技能。
 - `github-portfolio-checklist.md`：检查项目是否达到可投递标准。
