@@ -1,0 +1,6 @@
+项目,状态,仓库链接,demo链接,README,测试,评估,架构图,demo视频,失败案例,简历bullet,5分钟讲解,发布状态,下一步行动
+AI 学习助手,进行中,,,python-foundations/first-CLI/README.md,"first-CLI 30 passed / 1 xfailed；practice 15 passed；TypeScript check 通过",未开始,未开始,未开始,"素材已有：OpenAI 顶层导入导致测试收集失败；`as` 不是运行时校验；待整理到项目 README",未开始,未开始,本地门槛通过，待推送里程碑,完成 Next.js 前端雏形和四种页面状态
+个人 RAG 知识库,未开始,,,,,,,,,,,,待 AI 学习助手 v1.0 后启动
+LangGraph 研究 Agent,未开始,,,,,,,,,,,,待 RAG 项目完成后启动
+AI Agent Web App,未开始,,,,,,,,,,,,待复用 RAG 或 LangGraph 真实流程
+Java + AI 后端网关,未开始,,,,,,,,,,,,第 5-8 周只保留每周 2 小时 Java 基础小产出

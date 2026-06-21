@@ -2,6 +2,12 @@
 
 > 本仓库已拆分并停止作为日常主入口。源文件和历史记录完整保留，用于追溯 2026 年路线设计与学习过程。
 
+## 归档入口
+
+- [旧 AI Agent 学习路线](./roadmap.md)
+- [旧 AI Agent 学习系统快照](./learning-system-archive/)
+- [当前 Learning Lab](https://github.com/justlearner010/Jay-ai-learning-lab)
+
 ## 新入口
 
 - [AI Agent 学习系统](https://github.com/justlearner010/jay-ai-agent-learning-system)：可复用框架、任务库、自动化和 Jay 的运行实例。
