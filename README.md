@@ -1,6 +1,19 @@
-# AI Agent 实习准备路线图
+# AI Agent 实习准备路线图（历史归档）
 
-这个文件夹是你的 AI Agent 实习准备工作区。长期方向保持稳定，具体学习采用“年度方向 + 滚动 4 周 + 每周主问题”的探索驱动方式。
+> 本仓库已拆分并停止作为日常主入口。源文件和历史记录完整保留，用于追溯 2026 年路线设计与学习过程。
+
+## 新入口
+
+- [AI Agent 学习系统](https://github.com/justlearner010/jay-ai-agent-learning-system)：可复用框架、任务库、自动化和 Jay 的运行实例。
+- [first-CLI 文本工具](https://github.com/justlearner010/jay-first-cli-text-tool)：独立 Python CLI 项目。
+- [AI 工程学习笔记](https://github.com/justlearner010/jay-ai-engineering-notes)：知识笔记、算法笔记与精选周复盘。
+- [GitHub Profile](https://github.com/justlearner010)：当前方向与项目总入口。
+
+迁移采用精选快照，不删除本仓库中的源文件。白名单与排除规则见 [`MIGRATION-MANIFEST.md`](MIGRATION-MANIFEST.md)。
+
+---
+
+以下内容是归档时的原工作区说明。长期方向保持稳定，具体学习采用“年度方向 + 滚动 4 周 + 每周主问题”的探索驱动方式。
 
 ## 目标
 
